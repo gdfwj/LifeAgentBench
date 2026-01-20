@@ -1,0 +1,90 @@
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_98453"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_91594"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_93308"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_39976"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94601"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94601"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94601"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94601"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_67757"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10141"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_39976"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_93308"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94601"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_20573"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_71665"}
+{"Query": "Which user had the highest steps in pa_daily_summary on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17419"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10709"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10709"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10709"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_13368"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10709"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10709"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10709"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10709"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the lowest resting_heart_rate in pa_daily_summary on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "305.94"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "327.46"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "279.43"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "262.02"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "360.47"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "312.05"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "353.05"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "328.93"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "159.5"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "419"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "299.7"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "237.69"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "272.42"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "391"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "418.14"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "70.96"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "332.22"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "301.74"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "296.67"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "426.79"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "444.67"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "367.96"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "469.92"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "363.75"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "389.12"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "308.48"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "378.38"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "451.57"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "400.53"}
+{"Query": "What was the average distance_m in pa_daily_summary (converted to kilometers) across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "234.37"}

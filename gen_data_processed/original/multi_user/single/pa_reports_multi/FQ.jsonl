@@ -1,0 +1,150 @@
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17419"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_67757"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10709"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94601"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94601"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_43794"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17419"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_43794"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_60429"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_20573"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_67757"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_67757"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_60429"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_92332"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56296"}
+{"Query": "Which user had the highest calories in pa_reports in a single activity session on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during run activities on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17705"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56718"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17419"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_39976"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_73455"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56718"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_22643"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_25413"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_60429"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during run activities on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_60429"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during run activities on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56718"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_28689"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_96181"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_92332"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56297"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during run activities on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_73455"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_72388"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_72388"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_97386"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_43794"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56718"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56297"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during run activities on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during run activities on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during bike activities on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_43794"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during walk activities on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70804"}
+{"Query": "Which user had the highest average_heart_rate in pa_reports during run activities on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "41.67"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "33.72"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "36.14"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "31.67"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "32.93"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "54.06"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "27.84"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "43.29"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "50.23"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "16"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "35.93"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "35.84"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "36.89"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "28.38"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "43.26"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "40.31"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "33.78"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "36.09"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "42.21"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "43.16"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "41.04"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "34.5"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "35.29"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "43.03"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "38"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "34.53"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "38.22"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "27.89"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "36"}
+{"Query": "What was the average duration in pa_reports across all users on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "39.39"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "31"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "30"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "29"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "42"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "26.5"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "24"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "29"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "22"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "29"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "27.5"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "26"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "33"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "31"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "16"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "23.5"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "25"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "25.5"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "28"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "33"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "35"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "32"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "30"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "35.5"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "22"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "25"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "37"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "26"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "27.5"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "25.5"}
+{"Query": "What was the median active_duration in pa_reports across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "20.5"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "38139"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "95471"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "75131"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1703"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "160986"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "137538"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "125328"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "105091"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "94887"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "139275"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "88189"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "157402"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "76679"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "98799"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "131471"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "90076"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "127733"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "116310"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "82840"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "103329"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "87714"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "217948"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "166527"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "25074"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "90012"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "114788"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "156724"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "127045"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "112553"}
+{"Query": "What was the total steps in pa_reports across all users on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "105494"}

@@ -1,0 +1,120 @@
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76957"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest deep_sleep_breathing_rate in respiratory_rate on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest rem_sleep_breathing_rate in respiratory_rate on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17419"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_84740"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76957"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest deep_sleep_breathing_rate in respiratory_rate on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76957"}
+{"Query": "Which user had the highest deep_sleep_breathing_rate in respiratory_rate on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76957"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_65695"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_29474"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_49219"}
+{"Query": "Which user had the highest deep_sleep_breathing_rate in respiratory_rate on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_49219"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76957"}
+{"Query": "Which user had the highest rem_sleep_breathing_rate in respiratory_rate on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56718"}
+{"Query": "Which user had the highest deep_sleep_breathing_rate in respiratory_rate on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest light_sleep_breathing_rate in respiratory_rate on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest deep_sleep_breathing_rate in respiratory_rate on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_35752"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_32988"}
+{"Query": "Which user had the highest deep_sleep_breathing_rate in respiratory_rate on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest rem_sleep_breathing_rate in respiratory_rate on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_71665"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76957"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest full_sleep_breathing_rate in respiratory_rate on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76957"}
+{"Query": "Which user had the highest rem_sleep_breathing_rate in respiratory_rate on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_41207"}
+{"Query": "What was A4F_89897's rank among all users for deep_sleep_breathing_rate in respiratory_rate on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "8"}
+{"Query": "What was A4F_70954's rank among all users for rem_sleep_breathing_rate in respiratory_rate on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "34"}
+{"Query": "What was A4F_89897's rank among all users for deep_sleep_breathing_rate in respiratory_rate on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "9"}
+{"Query": "What was A4F_94336's rank among all users for full_sleep_breathing_rate in respiratory_rate on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "8"}
+{"Query": "What was A4F_70068's rank among all users for rem_sleep_breathing_rate in respiratory_rate on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "4"}
+{"Query": "What was A4F_39976's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "17"}
+{"Query": "What was A4F_10660's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "6"}
+{"Query": "What was A4F_62344's rank among all users for deep_sleep_breathing_rate in respiratory_rate on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "29"}
+{"Query": "What was A4F_51606's rank among all users for full_sleep_breathing_rate in respiratory_rate on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10"}
+{"Query": "What was A4F_27766's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "14"}
+{"Query": "What was A4F_70954's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "39"}
+{"Query": "What was A4F_13368's rank among all users for deep_sleep_breathing_rate in respiratory_rate on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "4"}
+{"Query": "What was A4F_73455's rank among all users for rem_sleep_breathing_rate in respiratory_rate on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10"}
+{"Query": "What was A4F_56718's rank among all users for rem_sleep_breathing_rate in respiratory_rate on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "3"}
+{"Query": "What was A4F_28771's rank among all users for full_sleep_breathing_rate in respiratory_rate on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "22"}
+{"Query": "What was A4F_29474's rank among all users for deep_sleep_breathing_rate in respiratory_rate on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "28"}
+{"Query": "What was A4F_62344's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "26"}
+{"Query": "What was A4F_70804's rank among all users for full_sleep_breathing_rate in respiratory_rate on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "7"}
+{"Query": "What was A4F_77391's rank among all users for rem_sleep_breathing_rate in respiratory_rate on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "16"}
+{"Query": "What was A4F_70804's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "7"}
+{"Query": "What was A4F_92332's rank among all users for rem_sleep_breathing_rate in respiratory_rate on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "5"}
+{"Query": "What was A4F_18098's rank among all users for full_sleep_breathing_rate in respiratory_rate on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "30"}
+{"Query": "What was A4F_76292's rank among all users for deep_sleep_breathing_rate in respiratory_rate on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10"}
+{"Query": "What was A4F_24211's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "6"}
+{"Query": "What was A4F_97618's rank among all users for deep_sleep_breathing_rate in respiratory_rate on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "7"}
+{"Query": "What was A4F_97618's rank among all users for rem_sleep_breathing_rate in respiratory_rate on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "21"}
+{"Query": "What was A4F_13504's rank among all users for deep_sleep_breathing_rate in respiratory_rate on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "8"}
+{"Query": "What was A4F_10355's rank among all users for full_sleep_breathing_rate in respiratory_rate on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "19"}
+{"Query": "What was A4F_40008's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "19"}
+{"Query": "What was A4F_56718's rank among all users for light_sleep_breathing_rate in respiratory_rate on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "4"}
+{"Query": "What was the average rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "11.06"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.6"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "15.15"}
+{"Query": "What was the average light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.04"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "15.01"}
+{"Query": "What was the average light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "13.38"}
+{"Query": "What was the average rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "13.22"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "15.09"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "15.27"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "15.72"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.86"}
+{"Query": "What was the average rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "11.13"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.4"}
+{"Query": "What was the average deep_sleep_breathing_rate in respiratory_rate across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.35"}
+{"Query": "What was the average light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.53"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.92"}
+{"Query": "What was the average rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "13.17"}
+{"Query": "What was the average light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.54"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "15.72"}
+{"Query": "What was the average light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "13.91"}
+{"Query": "What was the average rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "10.53"}
+{"Query": "What was the average rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "12.81"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "15.02"}
+{"Query": "What was the average deep_sleep_breathing_rate in respiratory_rate across all users on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.42"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.78"}
+{"Query": "What was the average rem_sleep_breathing_rate in respiratory_rate across all users on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "12.91"}
+{"Query": "What was the average light_sleep_breathing_rate in respiratory_rate across all users on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.61"}
+{"Query": "What was the average light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.07"}
+{"Query": "What was the average full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.78"}
+{"Query": "What was the average light_sleep_breathing_rate in respiratory_rate across all users on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "14.49"}
+{"Query": "What was the median deep_sleep_breathing_rate in respiratory_rate across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.2"}
+{"Query": "What was the median light_sleep_breathing_rate in respiratory_rate across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.7"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.1"}
+{"Query": "What was the median light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.6"}
+{"Query": "What was the median rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "13.8"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.8"}
+{"Query": "What was the median deep_sleep_breathing_rate in respiratory_rate across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.7"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.5"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.2"}
+{"Query": "What was the median deep_sleep_breathing_rate in respiratory_rate across all users on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.8"}
+{"Query": "What was the median light_sleep_breathing_rate in respiratory_rate across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.5"}
+{"Query": "What was the median light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.4"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.2"}
+{"Query": "What was the median light_sleep_breathing_rate in respiratory_rate across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "13.4"}
+{"Query": "What was the median deep_sleep_breathing_rate in respiratory_rate across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "15"}
+{"Query": "What was the median rem_sleep_breathing_rate in respiratory_rate across all users on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "13.8"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "15"}
+{"Query": "What was the median light_sleep_breathing_rate in respiratory_rate across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.6"}
+{"Query": "What was the median deep_sleep_breathing_rate in respiratory_rate across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.4"}
+{"Query": "What was the median rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.3"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.2"}
+{"Query": "What was the median rem_sleep_breathing_rate in respiratory_rate across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "12.8"}
+{"Query": "What was the median rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "14"}
+{"Query": "What was the median deep_sleep_breathing_rate in respiratory_rate across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.3"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "15.1"}
+{"Query": "What was the median rem_sleep_breathing_rate in respiratory_rate across all users on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "13.4"}
+{"Query": "What was the median deep_sleep_breathing_rate in respiratory_rate across all users on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "15"}
+{"Query": "What was the median rem_sleep_breathing_rate in respiratory_rate across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "13.8"}
+{"Query": "What was the median deep_sleep_breathing_rate in respiratory_rate across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.2"}
+{"Query": "What was the median full_sleep_breathing_rate in respiratory_rate across all users on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "14.8"}

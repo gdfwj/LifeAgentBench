@@ -1,0 +1,2 @@
+gen_data_processed/*/all_prompts.jsonl filter=lfs diff=lfs merge=lfs -text
+gen_data_processed/*/*_user.jsonl filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,120 @@
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56297"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_24211"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_13368"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_89897"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2014-07-27?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_22483"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_29474"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_89897"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_22483"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_28771"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_98453"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56297"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_44160"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_13504"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_22483"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_44160"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_13504"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2014-07-27?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_22483"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_22483"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76292"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_31033"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_24211"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_29474"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_29474"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_98453"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_29474"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_33497"}
+{"Query": "Which user consumed the most different categories in food_meal_labels on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Alcoholic Beverages"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Alcoholic Beverages"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fruits"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most common subcategory in food_meal_labels across all users on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Vegetables and Greens"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fermented"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fermented"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "What was the most frequent cooking_style in food_meal_labels across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {word}", "Answer": "Fresh"}
+{"Query": "Did A4F_45863 consume multiple categories in food_meal_labels on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_32988 consume multiple categories in food_meal_labels on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_93973 consume multiple categories in food_meal_labels on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_56355 consume multiple categories in food_meal_labels on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_41207 consume multiple categories in food_meal_labels on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_28689 consume multiple categories in food_meal_labels on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_67757 consume multiple categories in food_meal_labels on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_94601 consume multiple categories in food_meal_labels on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_13504 consume multiple categories in food_meal_labels on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_27766 consume multiple categories in food_meal_labels on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_27766 consume multiple categories in food_meal_labels on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_65060 consume multiple categories in food_meal_labels on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_62344 consume multiple categories in food_meal_labels on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_98040 consume multiple categories in food_meal_labels on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_85240 consume multiple categories in food_meal_labels on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_20573 consume multiple categories in food_meal_labels on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_94601 consume multiple categories in food_meal_labels on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_43794 consume multiple categories in food_meal_labels on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_98453 consume multiple categories in food_meal_labels on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_84534 consume multiple categories in food_meal_labels on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_48857 consume multiple categories in food_meal_labels on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_65060 consume multiple categories in food_meal_labels on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_27766 consume multiple categories in food_meal_labels on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_56297 consume multiple categories in food_meal_labels on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_92332 consume multiple categories in food_meal_labels on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_86472 consume multiple categories in food_meal_labels on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_73455 consume multiple categories in food_meal_labels on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "yes"}
+{"Query": "Did A4F_84740 consume multiple categories in food_meal_labels on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_24211 consume multiple categories in food_meal_labels on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}
+{"Query": "Did A4F_10355 consume multiple categories in food_meal_labels on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {yes or no}", "Answer": "no"}

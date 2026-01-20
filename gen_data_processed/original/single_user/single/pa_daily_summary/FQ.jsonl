@@ -1,0 +1,30 @@
+{"Query": "How many calories did A4F_43794 burn on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "2533"}
+{"Query": "How many calories did A4F_10660 burn on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "2522.8"}
+{"Query": "What was the steps in pa_daily_summary of A4F_56355 on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10862"}
+{"Query": "How many calories did A4F_84962 burn on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "4142.05"}
+{"Query": "What was A4F_27052's resting_heart_rate in pa_daily_summary on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "60.99"}
+{"Query": "What was A4F_56718's resting_heart_rate in pa_daily_summary on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "63.56"}
+{"Query": "What was A4F_91516's resting_heart_rate in pa_daily_summary on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "61.65"}
+{"Query": "What was A4F_94120's resting_heart_rate in pa_daily_summary on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "78.92"}
+{"Query": "What was the steps in pa_daily_summary of A4F_71665 on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "17092"}
+{"Query": "What was the distance covered by A4F_68106 on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "637.93"}
+{"Query": "What was the distance covered by A4F_84962 on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "1215.66"}
+{"Query": "What was the distance covered by A4F_28689 on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "656.17"}
+{"Query": "What was the steps in pa_daily_summary of A4F_70804 on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "15821"}
+{"Query": "How many calories did A4F_91362 burn on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "2781.74"}
+{"Query": "How many calories did A4F_45118 burn on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "2780.75"}
+{"Query": "What was A4F_34415's resting_heart_rate in pa_daily_summary on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "70.73"}
+{"Query": "What was the distance covered by A4F_25413 on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "766.1"}
+{"Query": "What was the steps in pa_daily_summary of A4F_71665 on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "9109"}
+{"Query": "How many calories did A4F_56279 burn on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "4465.81"}
+{"Query": "What was A4F_42312's resting_heart_rate in pa_daily_summary on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "70.65"}
+{"Query": "What was the steps in pa_daily_summary of A4F_10355 on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "5713"}
+{"Query": "What was A4F_94601's resting_heart_rate in pa_daily_summary on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "61.55"}
+{"Query": "How many calories did A4F_79824 burn on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "2342.75"}
+{"Query": "How many calories did A4F_77391 burn on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "2762.39"}
+{"Query": "How many calories did A4F_65724 burn on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "2737.96"}
+{"Query": "What was the distance covered by A4F_84740 on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "147.22"}
+{"Query": "What was the steps in pa_daily_summary of A4F_20573 on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10124"}
+{"Query": "How many calories did A4F_60728 burn on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "3187.97"}
+{"Query": "What was the distance covered by A4F_67598 on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "1621.25"}
+{"Query": "What was the distance covered by A4F_56296 on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "2019.14"}

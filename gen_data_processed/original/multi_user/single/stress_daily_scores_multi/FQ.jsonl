@@ -1,0 +1,120 @@
+{"Query": "Which user had the highest responsiveness_points in stress_daily_scores on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_45863"}
+{"Query": "Which user had the highest stress_score in stress_daily_scores on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_45863"}
+{"Query": "Which user had the highest stress_score in stress_daily_scores on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_92332"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_82994"}
+{"Query": "Which user had the highest responsiveness_points in stress_daily_scores on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_98040"}
+{"Query": "Which user had the highest stress_score in stress_daily_scores on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_45863"}
+{"Query": "Which user had the highest responsiveness_points in stress_daily_scores on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_51606"}
+{"Query": "Which user had the highest stress_score in stress_daily_scores on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56718"}
+{"Query": "Which user had the highest stress_score in stress_daily_scores on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_76957"}
+{"Query": "Which user had the highest responsiveness_points in stress_daily_scores on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_27766"}
+{"Query": "Which user had the highest exertion_points in stress_daily_scores on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_79824"}
+{"Query": "Which user had the highest exertion_points in stress_daily_scores on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17419"}
+{"Query": "Which user had the highest exertion_points in stress_daily_scores on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_45863"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_31033"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the highest exertion_points in stress_daily_scores on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_73455"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_67598"}
+{"Query": "Which user had the highest stress_score in stress_daily_scores on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56297"}
+{"Query": "Which user had the highest exertion_points in stress_daily_scores on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17419"}
+{"Query": "Which user had the highest responsiveness_points in stress_daily_scores on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_92332"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_97618"}
+{"Query": "Which user had the highest exertion_points in stress_daily_scores on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56718"}
+{"Query": "Which user had the highest stress_score in stress_daily_scores on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_97618"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_67598"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_82994"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_92332"}
+{"Query": "Which user had the highest exertion_points in stress_daily_scores on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_56355"}
+{"Query": "Which user had the highest sleep_points in stress_daily_scores on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_49219"}
+{"Query": "Which user had the highest stress_score in stress_daily_scores on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the highest responsiveness_points in stress_daily_scores on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_71665"}
+{"Query": "What was A4F_68106's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "13"}
+{"Query": "What was A4F_43794's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "2"}
+{"Query": "What was A4F_98040's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "4"}
+{"Query": "What was A4F_67598's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "4"}
+{"Query": "What was A4F_70068's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "2"}
+{"Query": "What was A4F_67598's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "9"}
+{"Query": "What was A4F_65724's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-28?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10"}
+{"Query": "What was A4F_56355's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "6"}
+{"Query": "What was A4F_40008's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "20"}
+{"Query": "What was A4F_68106's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "7"}
+{"Query": "What was A4F_51606's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10"}
+{"Query": "What was A4F_86472's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "9"}
+{"Query": "What was A4F_53145's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "4"}
+{"Query": "What was A4F_67598's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "3"}
+{"Query": "What was A4F_22119's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "3"}
+{"Query": "What was A4F_31033's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1"}
+{"Query": "What was A4F_71665's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "6"}
+{"Query": "What was A4F_70068's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "6"}
+{"Query": "What was A4F_97618's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "2"}
+{"Query": "What was A4F_35752's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "15"}
+{"Query": "What was A4F_18098's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "7"}
+{"Query": "What was A4F_51606's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "13"}
+{"Query": "What was A4F_89897's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "13"}
+{"Query": "What was A4F_17419's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "11"}
+{"Query": "What was A4F_56297's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1"}
+{"Query": "What was A4F_18098's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "16"}
+{"Query": "What was A4F_17419's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "17"}
+{"Query": "What was A4F_94336's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "7"}
+{"Query": "What was A4F_24211's rank among all users for responsiveness_points in stress_daily_scores on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "18"}
+{"Query": "What was A4F_56718's rank among all users for responsiveness_points in stress_daily_scores on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "7"}
+{"Query": "What was the average responsiveness_points in stress_daily_scores across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "24.79"}
+{"Query": "What was the average stress_score in stress_daily_scores across all users on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "70.73"}
+{"Query": "What was the average stress_score in stress_daily_scores across all users on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "79.85"}
+{"Query": "What was the average sleep_points in stress_daily_scores across all users on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "21.38"}
+{"Query": "What was the average exertion_points in stress_daily_scores across all users on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "28.82"}
+{"Query": "What was the average exertion_points in stress_daily_scores across all users on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "30.23"}
+{"Query": "What was the average responsiveness_points in stress_daily_scores across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "23.2"}
+{"Query": "What was the average stress_score in stress_daily_scores across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "69.33"}
+{"Query": "What was the average responsiveness_points in stress_daily_scores across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "24.33"}
+{"Query": "What was the average responsiveness_points in stress_daily_scores across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "24.19"}
+{"Query": "What was the average exertion_points in stress_daily_scores across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "29"}
+{"Query": "What was the average sleep_points in stress_daily_scores across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "21.45"}
+{"Query": "What was the average responsiveness_points in stress_daily_scores across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "23.33"}
+{"Query": "What was the average sleep_points in stress_daily_scores across all users on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "22.23"}
+{"Query": "What was the average stress_score in stress_daily_scores across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "78.93"}
+{"Query": "What was the average sleep_points in stress_daily_scores across all users on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "23.06"}
+{"Query": "What was the average responsiveness_points in stress_daily_scores across all users on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "24.79"}
+{"Query": "What was the average exertion_points in stress_daily_scores across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "28"}
+{"Query": "What was the average exertion_points in stress_daily_scores across all users on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "30.56"}
+{"Query": "What was the average stress_score in stress_daily_scores across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "78.87"}
+{"Query": "What was the average exertion_points in stress_daily_scores across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "31.15"}
+{"Query": "What was the average exertion_points in stress_daily_scores across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "31.64"}
+{"Query": "What was the average exertion_points in stress_daily_scores across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "32.14"}
+{"Query": "What was the average sleep_points in stress_daily_scores across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "21.86"}
+{"Query": "What was the average responsiveness_points in stress_daily_scores across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "23.18"}
+{"Query": "What was the average stress_score in stress_daily_scores across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "72.43"}
+{"Query": "What was the average responsiveness_points in stress_daily_scores across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "22.64"}
+{"Query": "What was the average sleep_points in stress_daily_scores across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "23"}
+{"Query": "What was the average stress_score in stress_daily_scores across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "78.21"}
+{"Query": "What was the average stress_score in stress_daily_scores across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "71.33"}
+{"Query": "What was the median exertion_points in stress_daily_scores across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "32"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "79"}
+{"Query": "What was the median responsiveness_points in stress_daily_scores across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "24"}
+{"Query": "What was the median exertion_points in stress_daily_scores across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "30.5"}
+{"Query": "What was the median sleep_points in stress_daily_scores across all users on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "22"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "81.5"}
+{"Query": "What was the median sleep_points in stress_daily_scores across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "22"}
+{"Query": "What was the median responsiveness_points in stress_daily_scores across all users on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "25"}
+{"Query": "What was the median responsiveness_points in stress_daily_scores across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "23"}
+{"Query": "What was the median responsiveness_points in stress_daily_scores across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "25"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "76"}
+{"Query": "What was the median sleep_points in stress_daily_scores across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "23"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "81"}
+{"Query": "What was the median sleep_points in stress_daily_scores across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "19"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "77"}
+{"Query": "What was the median exertion_points in stress_daily_scores across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "26.5"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "70"}
+{"Query": "What was the median exertion_points in stress_daily_scores across all users on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "30.5"}
+{"Query": "What was the median exertion_points in stress_daily_scores across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "33"}
+{"Query": "What was the median sleep_points in stress_daily_scores across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "20"}
+{"Query": "What was the median exertion_points in stress_daily_scores across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "31"}
+{"Query": "What was the median sleep_points in stress_daily_scores across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "19.5"}
+{"Query": "What was the median sleep_points in stress_daily_scores across all users on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "21"}
+{"Query": "What was the median exertion_points in stress_daily_scores across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "29"}
+{"Query": "What was the median responsiveness_points in stress_daily_scores across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "24.5"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "77"}
+{"Query": "What was the median sleep_points in stress_daily_scores across all users on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "25"}
+{"Query": "What was the median responsiveness_points in stress_daily_scores across all users on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "23"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "77"}
+{"Query": "What was the median stress_score in stress_daily_scores across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "79"}

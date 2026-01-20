@@ -1,0 +1,26 @@
+name: agent
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scipy
+      - scikit-learn
+      - matplotlib
+      - jupyter
+      - ipykernel
+      - torch
+      - torchvision
+      - torchaudio
+      - transformers
+      - datasets
+      - huggingface_hub
+      - accelerate
+      - evaluate
+      - pymysql
+      - bitsandbytes
+      - protobuf
+      - sentencepiece

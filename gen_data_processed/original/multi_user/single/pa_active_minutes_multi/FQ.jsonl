@@ -1,0 +1,116 @@
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_67757"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_45863"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_60429"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_45863"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70804"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_53145"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_13504"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_20573"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_17705"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_44160"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_70068"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10021"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94336"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_94601"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_10660"}
+{"Query": "Which user had the highest peak_minutes in pa_active_minutes on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {uid}", "Answer": "A4F_73455"}
+{"Query": "What was A4F_76957's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "14"}
+{"Query": "What was A4F_51606's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "28"}
+{"Query": "What was A4F_17419's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "3"}
+{"Query": "What was A4F_35752's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10"}
+{"Query": "What was A4F_76292's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "29"}
+{"Query": "What was A4F_73455's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "11"}
+{"Query": "What was A4F_45863's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "7"}
+{"Query": "What was A4F_24211's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "16"}
+{"Query": "What was A4F_97386's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1"}
+{"Query": "What was A4F_60728's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "6"}
+{"Query": "What was A4F_56279's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "18"}
+{"Query": "What was A4F_99000's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "21"}
+{"Query": "What was A4F_94336's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "2"}
+{"Query": "What was A4F_97386's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "24"}
+{"Query": "What was A4F_89897's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "20"}
+{"Query": "What was A4F_51606's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "18"}
+{"Query": "What was A4F_56718's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "15"}
+{"Query": "What was A4F_53145's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "27"}
+{"Query": "What was A4F_70804's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "6"}
+{"Query": "What was A4F_35752's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-14?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "29"}
+{"Query": "What was A4F_35752's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "8"}
+{"Query": "What was A4F_94120's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "13"}
+{"Query": "What was A4F_76957's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "12"}
+{"Query": "What was A4F_94601's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "13"}
+{"Query": "What was A4F_31033's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "19"}
+{"Query": "What was A4F_98040's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "12"}
+{"Query": "What was A4F_39976's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "11"}
+{"Query": "What was A4F_95200's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "19"}
+{"Query": "What was A4F_72388's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "10"}
+{"Query": "What was A4F_20573's rank among all users for moderately_active_minutes in pa_active_minutes on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "5"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "107.41"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-07?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "105.95"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "93.61"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "115.25"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-21?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "113.19"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "107.46"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "24.94"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-13?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "103.47"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "95.04"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "92.23"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "105.66"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "92.47"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "93.08"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "69.51"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "80.06"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "38.28"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "70.73"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "76.69"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "96.87"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-26?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "113.87"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "120.62"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "89.32"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "63.59"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "108.19"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "50.22"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "3.16"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-05-27?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "112.53"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {else}", "Answer": "81.4"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "107.37"}
+{"Query": "What was the average lightly_active_minutes in pa_active_minutes across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {real number (two decimal)}", "Answer": "80.99"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1457"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-30?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1326"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "222"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "39"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-22?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "2101"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-15?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1139"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-19?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "995"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-09?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "884"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-21?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "583"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-20?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "696"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-24?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1485"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "766"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-03?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "735"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-23?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1510"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-02?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1023"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1180"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-29?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1641"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-11?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1631"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-01?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1148"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-17?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "691"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-04?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1222"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-10?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1469"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-05?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "807"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-25?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "2156"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-18?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1197"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-08?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1019"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-16?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1338"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-06?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1041"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-05-31?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1118"}
+{"Query": "What was the total very_active_minutes in pa_active_minutes across all users on 2022-06-12?\nOutput requirement: return 1 value(s); types (ordered): {integer}", "Answer": "1224"}
