@@ -11,7 +11,7 @@ MYSQL_HOST = os.getenv("MYSQL_HOST", "localhost")
 MYSQL_PORT = int(os.getenv("MYSQL_PORT", "3306"))
 MYSQL_USER = os.getenv("MYSQL_USER", "username")
 MYSQL_PASS = os.getenv("MYSQL_PASSWORD", "password")
-DB_NAME    = "MultilifeQA"
+DB_NAME    = "LifeAgentBench"
 
 DATA_ROOT = "./data/FoodNExtDB"
 BATCH_SIZE = 2000
