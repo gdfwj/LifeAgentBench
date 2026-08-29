@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning - Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="LifeAgentBench is a large-scale QA benchmark for evaluating LLMs on long-horizon, cross-dimensional, and multi-user lifestyle health reasoning, with systematic model analysis and a tool-augmented reasoning baseline.">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="Large Language Models, Question Answering, Benchmark, Lifestyle Health Reasoning">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="University of California San Diego, Computer Science and Engineering Department">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning - Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="LifeAgentBench is a large-scale QA benchmark for evaluating LLMs on long-horizon, cross-dimensional, and multi-user lifestyle health reasoning, with systematic model analysis and a tool-augmented reasoning baseline.">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://gdfwj.github.io/LifeAgentBench/">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://gdfwj.github.io/LifeAgentBench/static/preview.png">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="450">
+  <meta property="og:image:alt" content="LifeAgentBench - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="LLMs">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning - Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/jpg" href="static/icon.jpg">
+  <link rel="apple-touch-icon" href="static/icon.jpg">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+
+  
+  <main id="main-content">
+    <!-- 顶部标题 + 作者 + 单位 + 三个按钮 -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning
+              </h1>
+
+
+              <p class="is-size-5" style="margin-top:.75rem">
+                <strong>Ye Tian*</strong>, <strong>Zihao Wang*</strong>, 
+                <strong>Onat Gungor</strong>, <strong>Xiaoran Fan</strong>, <strong>Tajana Rosing</strong>
+              </p>
+              <p class="is-size-6 has-text-grey">
+                University of California San Diego, Computer Science and Engineering Department
+              </p>
+
+              <div class="buttons-row">
+                <a class="button is-link is-light is-rounded" target="_blank" href="https://arxiv.org/abs/2601.13880">Paper</a>
+                <a class="button is-link is-light is-rounded" target="_blank" href="https://huggingface.co/datasets/gdfwj/LifeAgentBench">Dataset</a>
+                <a class="button is-link is-light is-rounded" target="_blank" href="https://github.com/gdfwj/LifeAgentBench">Code</a>
+              </div>
+
+              <!-- 演示图片 -->
+              <div class="demo-wrap">
+                <img src="static/preview.png" alt="DailyLLM structure image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Personalized lifestyle health analysis requires long-horizon, multi-dimensional reasoning over heterogeneous lifestyle signals, and recent advances in mobile sensing and large language models (LLMs) make such support increasingly feasible.
+However, the capabilities of current LLMs in this setting remain insufficiently understood due to the lack of systematic benchmarks.
+In this paper, we introduce LifeAgentBench, a large-scale QA benchmark for long-horizon, cross-dimensional, and multi-user lifestyle health reasoning, containing 22,573 questions spanning from basic retrieval to complex reasoning.
+We release an extensible benchmark construction pipeline and a standardized evaluation protocol, deriving verifiable answers through executable queries and programs to support reliable assessment.
+We then systematically evaluate 13 representative LLMs on LifeAgentBench and identify key bottlenecks in long-horizon aggregation and cross-dimensional reasoning.
+Motivated by these findings, we propose LifeAgent, a tool-augmented reasoning baseline that decomposes complex queries, performs multi-step evidence retrieval, and invokes tools for deterministic aggregation.
+LifeAgent substantially enhances LLMs' capabilities on challenging reasoning tasks, achieving clear improvements over widely used baselines and showing potential for health reasoning in everyday scenarios.
+The benchmark is publicly available.https://gdfwj.github.io/LifeAgentBench
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+<!-- Structure figure -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered" style="margin-bottom: 1rem;">Overall Structure</h2>
+    <!-- <p class="has-text-centered has-text-grey" style="margin-bottom: 1rem;">
+    </p> -->
+    <div class="structure-wrap">
+      <img src="static/system_overview.jpg" alt="Distribution of Dataset">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title is-3">BibTeX</h2>
+          <button class="button is-small" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-code').innerText)">Copy</button>
+        </div>
+        <pre id="bibtex-code"><code>@article{tian2026lifeagentbench,
+  title={LifeAgentBench: A Multi-dimensional Benchmark and Agent for Personal Health Assistants in Digital Health},
+  author={Tian, Ye and Wang, Zihao and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana},
+  journal={arXiv preprint arXiv:2601.13880},
+  year={2026}
+}</code></pre>
+      </div>
+</section>
+
+  </main>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
