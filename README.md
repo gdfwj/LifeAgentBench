@@ -14,7 +14,7 @@ Clone with LFS enabled to obtain the `gen_data_processed` folder:
 git lfs install
 ```
 
-If Git LFS bandwidth is exceeded or unavailable, you can alternatively download the `.zip` package of dataset directly from the following anonymous link: https://osf.io/download/68d24e75d6b887c60e3b7f08/?view_only=6b74757f20be4b2b8d1db5c9b5e9d551
+If Git LFS bandwidth is exceeded or unavailable, you can alternatively download the dataset from [huggingface]{https://huggingface.co/datasets/gdfwj/LifeAgentBench}
 
 Each folder contains multiple subfolders, where the folder name indicates the table category.  
 **In addition, we provide three summary files: `all_prompts.jsonl` (all questions) is placed in the root of the `original`, `simple`, and `sql` folders; and `single_user.jsonl` / `multi_user.jsonl` (single-user and multi-user question collections) are placed in the root of the `original` and `sql` folders.** 
