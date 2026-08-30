@@ -193,6 +193,21 @@ section[id] {
   margin: 1.75rem 0 2.35rem;
 }
 
+.resource-buttons .button {
+  gap: 0.48rem;
+}
+
+.resource-icon {
+  width: 1.05rem;
+  height: 1.05rem;
+  flex: 0 0 1.05rem;
+  object-fit: contain;
+}
+
+.resource-icon-paper {
+  filter: brightness(0) invert(1);
+}
+
 .button {
   min-height: 2.75rem;
   border-radius: 10px !important;
