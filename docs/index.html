@@ -151,7 +151,7 @@
     <nav class="container is-max-desktop site-nav" aria-label="Primary navigation">
       <a class="site-mark" href="#top" aria-label="LifeAgentBench home">LifeAgentBench</a>
       <div class="nav-links">
-        <a href="#tasks">Tasks</a><a href="#findings">Findings</a><a href="#results">Results</a><a href="#use">Use</a><a href="#citation">Citation</a>
+        <a href="#construction">Benchmark</a><a href="#findings">Findings</a><a href="#results">Results</a><a href="#use">Use</a><a href="#citation">Citation</a>
       </div>
     </nav>
   </header>
@@ -186,7 +186,7 @@
       <div class="container is-max-desktop">
         <div class="section-heading has-text-centered">
           <p class="eyebrow">At a glance</p>
-          <h2 class="title is-2" id="overview-title">LifeAgentBench in 30 Seconds</h2>
+          <h2 class="title is-2" id="overview-title">LifeAgentBench at a Glance</h2>
           <p class="lead">LifeAgentBench is a question-answering benchmark for evaluating whether LLMs can reason over long-term, multi-dimensional lifestyle records, including long-horizon, cross-dimensional, and multi-user reasoning.</p>
         </div>
         <dl class="stat-grid">
@@ -210,9 +210,21 @@
       </div>
     </section>
 
-    <section class="section" id="tasks" aria-labelledby="tasks-title">
+    <section class="section" id="construction" aria-labelledby="construction-title">
       <div class="container is-max-desktop">
-        <div class="section-heading has-text-centered"><p class="eyebrow">Benchmark taxonomy</p><h2 class="title is-2" id="tasks-title">What Does LifeAgentBench Test?</h2><p class="section-summary">The official taxonomy contains five reasoning types. Questions additionally vary by time horizon, domain scope, user scope, and answer format.</p></div>
+        <div class="section-heading has-text-centered"><p class="eyebrow">Verifiable benchmark construction</p><h2 class="title is-2" id="construction-title">Benchmark Composition and Construction</h2><p class="section-summary">LifeAgentBench is built from anonymized AI4FoodDB records for 100 participants. Records are normalized into relational tables, questions are instantiated from reusable templates, and deterministic answers are produced by executable programs and queries.</p></div>
+        <ol class="construction-flow">
+          <li><strong>Normalize records</strong><span>Align diet, sleep, activity, and emotion by participant ID and timestamp.</span></li>
+          <li><strong>Instantiate questions</strong><span>Compose time-window, aggregation, comparison, condition, and trend operators.</span></li>
+          <li><strong>Execute ground truth</strong><span>Run deterministic programs or database queries for verifiable answers.</span></li>
+          <li><strong>Check quality</strong><span>Apply programmatic checks and manual inspection.</span></li>
+        </ol>
+        <figure class="structure-figure">
+          <img src="static/system_overview.jpg" width="2409" height="681" loading="lazy" alt="LifeAgentBench composition showing 13,452 single-user and 9,121 multi-user questions, vocabulary, five task categories, and answer formats">
+          <figcaption>Benchmark composition: user scope and domains (left), question vocabulary (center), and task and answer-format distribution (right).</figcaption>
+        </figure>
+
+        <div class="subsection-heading has-text-centered" id="tasks"><p class="eyebrow">Benchmark taxonomy</p><h3 class="subsection-title" id="tasks-title">What Does LifeAgentBench Test?</h3><p class="section-summary">The official taxonomy contains five reasoning types. Questions additionally vary by time horizon, domain scope, user scope, and answer format.</p></div>
         <div class="taxonomy-strip" aria-label="Official task categories">
           <span><b>FQ</b> Fact Query</span><span><b>AS</b> Aggregated Statistics</span><span><b>NC</b> Numeric Comparison</span><span><b>CQ</b> Conditional Query</span><span><b>TA</b> Trend Analysis</span>
         </div>
@@ -242,11 +254,10 @@
     <section class="section" id="results" aria-labelledby="results-title">
       <div class="container is-max-desktop">
         <div class="section-heading has-text-centered"><p class="eyebrow">Reported evaluation</p><h2 class="title is-2" id="results-title">Benchmark Results</h2><p class="section-summary">Overall normalized answer accuracy from the 2026 camera-ready paper. Higher is better.</p></div>
-        <div class="result-meta" aria-label="Results metadata"><span>Snapshot: camera-ready paper, 2026</span><span>Dataset: 22,573 QA pairs</span><span>Metric: Accuracy (%)</span></div>
         <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable benchmark results table">
           <table class="results-table">
             <caption>Accuracy of 13 evaluated LLMs under Context Prompting and Database-augmented Prompting.</caption>
-            <thead><tr><th scope="col">Model</th><th scope="col"><abbr title="Context Prompting">CP</abbr> Acc. (%)</th><th scope="col"><abbr title="Database-augmented Prompting">DP</abbr> Acc. (%)</th></tr></thead>
+            <thead><tr><th scope="col">Model</th><th scope="col">Context Prompting Accuracy (%)</th><th scope="col">Database-augmented Prompting Accuracy (%)</th></tr></thead>
             <tbody>
               <tr class="group-row"><th colspan="3" scope="colgroup">Open-source LLMs</th></tr>
               <tr><th scope="row">DeepSeek-Coder-1.3B</th><td>1.09</td><td>1.26</td></tr>
@@ -266,13 +277,17 @@
             </tbody>
           </table>
         </div>
-        <p class="table-note"><abbr title="Context Prompting">CP</abbr> places pre-filtered records in the model context. <abbr title="Database-augmented Prompting">DP</abbr> asks the model to generate a read-only SQL query, executes it, and returns the evidence for final answering. See the paper for exact answer normalization and numeric-tolerance rules.</p>
+        <p class="table-note">Context Prompting places pre-filtered records in the model context. Database-augmented Prompting asks the model to generate a read-only SQL query, executes it, and returns the evidence for final answering. See the paper for exact answer normalization and numeric-tolerance rules.</p>
       </div>
     </section>
 
     <section class="section lifeagent-section" id="lifeagent" aria-labelledby="lifeagent-title">
       <div class="container is-max-desktop">
         <div class="section-heading has-text-centered"><p class="eyebrow">Baseline system</p><h2 class="title is-2" id="lifeagent-title">LifeAgent: A Tool-Augmented Reasoning Baseline</h2><p class="lead compact-lead">LifeAgent is not the benchmark itself. It is a separate baseline introduced to address the evidence-retrieval, aggregation, and cross-dimensional reasoning failures exposed by LifeAgentBench.</p></div>
+        <figure class="agent-figure">
+          <img src="static/agent.jpg" width="1684" height="618" loading="lazy" alt="LifeAgent framework showing user-query decomposition, an iterative thought-action-observation loop with retrieval and computation tools, evidence-grounded synthesis, and response generation">
+          <figcaption>LifeAgent decomposes a user query, iteratively retrieves and computes evidence with tools, and synthesizes an evidence-grounded response.</figcaption>
+        </figure>
         <ol class="pipeline" aria-label="LifeAgent workflow">
           <li><span>1</span><strong>User query</strong><small>Receive a lifestyle health question.</small></li>
           <li><span>2</span><strong>In-context decomposition</strong><small>Identify parameters, sub-questions, and an executable plan.</small></li>
@@ -286,22 +301,6 @@
           <article><h3>Deterministic computation</h3><p>Arithmetic, aggregation, threshold checks, comparisons, consecutiveness, and trend analysis.</p></article>
         </div>
         <p class="machine-summary"><strong>Why LifeAgent matters:</strong> the results show that explicit decomposition, iterative evidence retrieval, and deterministic computation can strengthen LLM reasoning on the benchmark’s most challenging tasks.</p>
-      </div>
-    </section>
-
-    <section class="section alternate-section" id="construction" aria-labelledby="construction-title">
-      <div class="container is-max-desktop">
-        <div class="section-heading has-text-centered"><p class="eyebrow">Verifiable benchmark construction</p><h2 class="title is-2" id="construction-title">Benchmark Composition and Construction</h2><p class="section-summary">LifeAgentBench is built from anonymized AI4FoodDB records for 100 participants. Records are normalized into relational tables, questions are instantiated from reusable templates, and deterministic answers are produced by executable programs and queries.</p></div>
-        <ol class="construction-flow">
-          <li><strong>Normalize records</strong><span>Align diet, sleep, activity, and emotion by participant ID and timestamp.</span></li>
-          <li><strong>Instantiate questions</strong><span>Compose time-window, aggregation, comparison, condition, and trend operators.</span></li>
-          <li><strong>Execute ground truth</strong><span>Run deterministic programs or database queries for verifiable answers.</span></li>
-          <li><strong>Check quality</strong><span>Apply programmatic checks and manual inspection.</span></li>
-        </ol>
-        <figure class="structure-figure">
-          <img src="static/system_overview.jpg" width="2409" height="681" loading="lazy" alt="LifeAgentBench composition showing 13,452 single-user and 9,121 multi-user questions, vocabulary, five task categories, and answer formats">
-          <figcaption>Benchmark composition: user scope and domains (left), question vocabulary (center), and task and answer-format distribution (right).</figcaption>
-        </figure>
       </div>
     </section>
 
