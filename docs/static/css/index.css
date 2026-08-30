@@ -286,7 +286,7 @@ figcaption {
 
 .stat-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin: 0;
 }
@@ -499,6 +499,10 @@ figcaption {
 
 .finding-card {
   border-top: 4px solid #93c5fd;
+}
+
+.finding-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .finding-card h3 {
@@ -902,10 +906,6 @@ summary:focus-visible,
 }
 
 @media (max-width: 1023px) {
-  .stat-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .pipeline {
     grid-template-columns: 1fr;
   }

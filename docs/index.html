@@ -193,7 +193,6 @@
           <div class="stat-card"><dt>Benchmark scale</dt><dd><strong>22,573</strong><span>QA pairs</span></dd></div>
           <div class="stat-card"><dt>Model coverage</dt><dd><strong>13</strong><span>evaluated LLMs</span></dd></div>
           <div class="stat-card"><dt>Record coverage</dt><dd><strong>4</strong><span>lifestyle dimensions</span></dd></div>
-          <div class="stat-card stat-card-wide"><dt>Reasoning scope</dt><dd><strong>Long-Horizon</strong><span>Cross-Dimensional · Multi-User</span></dd></div>
         </dl>
         <p class="fact-note">The four dimensions are diet, sleep, physical activity, and emotion. The benchmark contains 13,452 single-user and 9,121 multi-user questions.</p>
       </div>
@@ -217,13 +216,13 @@
         <div class="taxonomy-strip" aria-label="Official task categories">
           <span><b>FQ</b> Fact Query</span><span><b>AS</b> Aggregated Statistics</span><span><b>NC</b> Numeric Comparison</span><span><b>CQ</b> Conditional Query</span><span><b>TA</b> Trend Analysis</span>
         </div>
-        <p class="example-note">The questions below are anonymized and lightly normalized from released benchmark examples. Answers are intentionally omitted.</p>
+        <p class="example-note">The questions below are lightly normalized from released benchmark examples. Placeholders replace participant identifiers, dates, and numeric values; answers are intentionally omitted.</p>
         <div class="example-grid">
-          <article class="example-card"><p class="task-label">Fact Query · FQ</p><h3>“How many moderately active minutes did Participant A record on May 19, 2022?”</h3><p>Retrieves one atomic fact for a specified participant and date.</p></article>
-          <article class="example-card"><p class="task-label">Aggregated Statistics · AS</p><h3>“What was Participant A’s total cardio activity time within one week, starting May 21, 2022?”</h3><p>Aggregates a measure over a longitudinal window.</p></article>
-          <article class="example-card"><p class="task-label">Conditional Query · CQ</p><h3>“Over one week, on how many days did Participant A exceed both 11,093.07 steps and 286.4 minutes asleep?”</h3><p>Applies thresholds while aligning activity and sleep records by date.</p></article>
-          <article class="example-card"><p class="task-label">Numeric Comparison · NC</p><h3>“Which duration was longest for Participant A on May 19: light, moderate, or very active minutes?”</h3><p>Compares multiple numerical measurements and returns the matching label.</p></article>
-          <article class="example-card"><p class="task-label">Trend Analysis · TA</p><h3>“Did average steps and average deep-sleep minutes both increase consecutively across all participants over three days?”</h3><p>Combines multi-user aggregation, cross-dimensional alignment, and consecutive trend reasoning.</p></article>
+          <article class="example-card"><p class="task-label">Fact Query · FQ</p><h3>“How many moderately active minutes did {participant_id} record on {date}?”</h3><p>Retrieves one atomic fact for a specified participant and date.</p></article>
+          <article class="example-card"><p class="task-label">Aggregated Statistics · AS</p><h3>“What was {participant_id}’s total cardio activity time within one week, starting {start_date}?”</h3><p>Aggregates a measure over a longitudinal window.</p></article>
+          <article class="example-card"><p class="task-label">Conditional Query · CQ</p><h3>“Over one week, on how many days did {participant_id} exceed both {step_threshold} steps and {sleep_threshold} minutes asleep?”</h3><p>Applies thresholds while aligning activity and sleep records by date.</p></article>
+          <article class="example-card"><p class="task-label">Numeric Comparison · NC</p><h3>“Which duration was longest for {participant_id} on {date}: light, moderate, or very active minutes?”</h3><p>Compares multiple numerical measurements and returns the matching label.</p></article>
+          <article class="example-card"><p class="task-label">Trend Analysis · TA</p><h3>“Did average steps and average deep-sleep minutes both increase consecutively across all participants over {number_of_days} days?”</h3><p>Combines multi-user aggregation, cross-dimensional alignment, and consecutive trend reasoning.</p></article>
         </div>
       </div>
     </section>
@@ -232,9 +231,10 @@
       <div class="container is-max-desktop">
         <div class="section-heading has-text-centered"><p class="eyebrow">Experimental takeaways</p><h2 class="title is-2" id="findings-title">Key Findings</h2></div>
         <div class="finding-grid">
-          <article class="finding-card"><p class="finding-index">Finding 1</p><h3>Reliable evidence retrieval remains a bottleneck.</h3><p>Across the 13 models, Database-augmented Prompting retrieves complete evidence on only 28.79% of executable queries on average, even though nine models exceed 70% answer accuracy when complete evidence is retrieved.</p></article>
-          <article class="finding-card"><p class="finding-index">Finding 2</p><h3>Performance falls as reasoning scope and output complexity grow.</h3><p>Models struggle with aggregation-intensive tasks and multi-item outputs; accuracy also declines when evidence expands from one lifestyle dimension to all dimensions and from one user to multiple users.</p></article>
-          <article class="finding-card"><p class="finding-index">Finding 3</p><h3>Tool-augmented reasoning substantially improves difficult subsets.</h3><p>With the same Qwen2.5-7B backbone, LifeAgent reaches 40.16% average accuracy on the most challenging subsets, compared with 7.74% for Context Prompting and 9.43% for Database-augmented Prompting.</p></article>
+          <article class="finding-card"><p class="finding-index">Finding 1</p><h3>Reliable evidence retrieval remains a key bottleneck.</h3><p>Across the 13 models, complete-evidence retrieval under Database-augmented Prompting averages only 28.79%. When complete evidence is retrieved, however, nine models exceed 70% final-answer accuracy.</p></article>
+          <article class="finding-card"><p class="finding-index">Finding 2</p><h3>Aggregation, structured outputs, and larger evidence scopes remain difficult.</h3><p>Models struggle most with aggregation-intensive reasoning and structured outputs, and performance further degrades as questions span more lifestyle dimensions and users.</p></article>
+          <article class="finding-card"><p class="finding-index">Finding 3</p><h3>LifeAgent strengthens reasoning on the most challenging subsets.</h3><p>With the same Qwen2.5-7B backbone, LifeAgent reaches 40.16% average accuracy on the hardest subsets, compared with 7.74% for Context Prompting and 9.43% for Database-augmented Prompting.</p></article>
+          <article class="finding-card"><p class="finding-index">Finding 4</p><h3>LifeAgent’s three core components make complementary contributions.</h3><p>Removing decomposition reduces all-dimension accuracy from 52.75% to 38.76%, while removing retrieval tools reduces health-indicator accuracy from 69.84% to 33.84%. Removing computation tools also lowers performance.</p></article>
         </div>
       </div>
     </section>

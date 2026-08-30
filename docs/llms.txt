@@ -23,6 +23,7 @@
 - Reliable evidence retrieval is a major bottleneck. Under Database-augmented Prompting, complete-evidence retrieval averages 28.79% across the 13 models, although nine models exceed 70% answer accuracy when complete evidence is retrieved.
 - Performance degrades on aggregation-intensive questions, multi-item outputs, all-dimension questions, and multi-user reasoning.
 - On the paper's most challenging subsets with the same Qwen2.5-7B backbone, LifeAgent reaches 40.16% average accuracy, compared with 7.74% for Context Prompting and 9.43% for Database-augmented Prompting.
+- LifeAgent's decomposition, retrieval tools, and computation tools make complementary contributions. Removing decomposition reduces all-dimension accuracy from 52.75% to 38.76%, while removing retrieval tools reduces health-indicator accuracy from 69.84% to 33.84%; removing computation tools also lowers performance.
 
 ## LifeAgent
 

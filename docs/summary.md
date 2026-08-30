@@ -40,6 +40,7 @@ The benchmark construction pipeline normalizes and aligns lifestyle records in a
 1. **Evidence retrieval is a major bottleneck.** Under Database-augmented Prompting, complete-evidence retrieval averages 28.79% across 13 models. Nine models nevertheless exceed 70% answer accuracy when complete evidence is retrieved.
 2. **Complexity degrades performance.** Models struggle with aggregation-intensive questions and multi-item outputs, and accuracy declines as evidence expands across more lifestyle dimensions and users.
 3. **LifeAgent improves difficult subsets.** With Qwen2.5-7B as the shared backbone, LifeAgent reaches 40.16% average accuracy on the paper's most challenging subsets, compared with 7.74% for Context Prompting and 9.43% for Database-augmented Prompting.
+4. **LifeAgent's components are complementary.** Removing decomposition reduces all-dimension accuracy from 52.75% to 38.76%, while removing retrieval tools reduces health-indicator accuracy from 69.84% to 33.84%. Removing computation tools also lowers performance.
 
 ## LifeAgent
 
