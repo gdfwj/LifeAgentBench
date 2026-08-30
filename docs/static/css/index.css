@@ -200,13 +200,13 @@ section[id] {
 }
 
 .resource-icon {
-  width: 1.2rem;
-  height: 1.2rem;
-  flex: 0 0 1.2rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex: 0 0 2.75rem;
   box-sizing: border-box;
-  padding: 1px;
+  padding: 0.55rem;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: 10px;
   background: #fff;
   object-fit: contain;
   box-shadow: var(--shadow-sm);
