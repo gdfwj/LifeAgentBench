@@ -200,9 +200,9 @@ section[id] {
 }
 
 .resource-icon {
-  width: 0.9rem;
-  height: 0.9rem;
-  flex: 0 0 0.9rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  flex: 0 0 1.2rem;
   box-sizing: border-box;
   padding: 1px;
   border: 1px solid var(--border);
@@ -648,34 +648,6 @@ figcaption {
   width: 100%;
   height: auto;
   border-radius: 8px;
-}
-
-.results-summary {
-  margin-top: 1.5rem;
-  padding: 1.35rem 1.5rem;
-  border: 1px solid #bfdbfe;
-  border-radius: var(--radius);
-  background: var(--primary-soft);
-}
-
-.results-summary h3 {
-  margin: 0 0 0.75rem;
-  color: var(--ink);
-  font-size: 1.05rem;
-  font-weight: 800;
-}
-
-.results-summary ul {
-  margin: 0;
-  padding-left: 1.2rem;
-}
-
-.results-summary li {
-  color: #3d4a60;
-}
-
-.results-summary li + li {
-  margin-top: 0.55rem;
 }
 
 abbr[title] {
