@@ -3,282 +3,370 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning - Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="LifeAgentBench is a large-scale QA benchmark for evaluating LLMs on long-horizon, cross-dimensional, and multi-user lifestyle health reasoning, with systematic model analysis and a tool-augmented reasoning baseline.">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="Large Language Models, Question Answering, Benchmark, Lifestyle Health Reasoning">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="University of California San Diego, Computer Science and Engineering Department">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning - Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="LifeAgentBench is a large-scale QA benchmark for evaluating LLMs on long-horizon, cross-dimensional, and multi-user lifestyle health reasoning, with systematic model analysis and a tool-augmented reasoning baseline.">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://gdfwj.github.io/LifeAgentBench/">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://gdfwj.github.io/LifeAgentBench/static/preview.png">
-  <meta property="og:image:width" content="800">
-  <meta property="og:image:height" content="450">
-  <meta property="og:image:alt" content="LifeAgentBench - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="LLMs">
-  
-  <!-- Additional SEO -->
+  <meta name="color-scheme" content="light">
+
+  <title>LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning</title>
+  <meta name="title" content="LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning">
+  <meta name="description" content="LifeAgentBench is a 22,573-question benchmark evaluating 13 LLMs on long-horizon, cross-dimensional, and multi-user lifestyle health reasoning.">
+  <meta name="keywords" content="LifeAgentBench, large language models, LLM benchmark, lifestyle health reasoning, long-horizon reasoning, cross-dimensional reasoning, multi-user reasoning, question answering">
+  <meta name="author" content="Ye Tian, Zihao Wang, Onat Gungor, Xiaoran Fan, Tajana Rosing">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
+
+  <link rel="canonical" href="https://gdfwj.github.io/LifeAgentBench/">
+  <link rel="alternate" type="text/markdown" href="https://gdfwj.github.io/LifeAgentBench/summary.md" title="LifeAgentBench machine-readable summary">
+  <link rel="describedby" href="https://gdfwj.github.io/LifeAgentBench/llms.txt" type="text/plain">
+  <link rel="icon" href="static/images/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="static/icon.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="LifeAgentBench">
+  <meta property="og:title" content="LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning">
+  <meta property="og:description" content="A 22,573-question benchmark for evaluating 13 LLMs on long-horizon, cross-dimensional, and multi-user lifestyle health reasoning.">
+  <meta property="og:url" content="https://gdfwj.github.io/LifeAgentBench/">
+  <meta property="og:image" content="https://gdfwj.github.io/LifeAgentBench/static/preview.png">
+  <meta property="og:image:secure_url" content="https://gdfwj.github.io/LifeAgentBench/static/preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1363">
+  <meta property="og:image:height" content="741">
+  <meta property="og:image:alt" content="LifeAgentBench task domains and the LifeAgent tool-augmented reasoning workflow">
+  <meta property="article:section" content="Natural Language Processing">
+  <meta property="article:tag" content="LLM evaluation">
+  <meta property="article:tag" content="Lifestyle health reasoning">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LifeAgentBench: Long-Horizon Lifestyle Health Reasoning">
+  <meta name="twitter:description" content="A 22,573-question benchmark for long-horizon, cross-dimensional, and multi-user reasoning over four lifestyle domains.">
+  <meta name="twitter:image" content="https://gdfwj.github.io/LifeAgentBench/static/preview.png">
+  <meta name="twitter:image:alt" content="LifeAgentBench task domains and the LifeAgent tool-augmented reasoning workflow">
+
+  <meta name="citation_title" content="LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning">
+  <meta name="citation_author" content="Ye Tian">
+  <meta name="citation_author" content="Zihao Wang">
+  <meta name="citation_author" content="Onat Gungor">
+  <meta name="citation_author" content="Xiaoran Fan">
+  <meta name="citation_author" content="Tajana Rosing">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="EMNLP 2026">
+  <meta name="citation_pdf_url" content="https://gdfwj.github.io/LifeAgentBench/static/lifeagentbench-paper.pdf">
+  <meta name="citation_abstract_html_url" content="https://gdfwj.github.io/LifeAgentBench/">
+  <meta name="citation_arxiv_id" content="2601.13880">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning - Tian, Ye* and Wang, Zihao* and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana</title>
-  
-  <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/jpg" href="static/icon.jpg">
-  <link rel="apple-touch-icon" href="static/icon.jpg">
-  
-  <!-- Critical CSS - Load synchronously -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
-  <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  </noscript>
-  
-  <!-- Fonts - Optimized loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
-  <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
+    "@graph": [
       {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
+        "@type": "ScholarlyArticle",
+        "@id": "https://gdfwj.github.io/LifeAgentBench/#paper",
+        "headline": "LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning",
+        "description": "LifeAgentBench is a large-scale question-answering benchmark for evaluating long-horizon, cross-dimensional, and multi-user lifestyle health reasoning over diet, sleep, physical activity, and emotion records.",
+        "abstract": "LifeAgentBench contains 22,573 questions spanning basic retrieval to complex reasoning. The study evaluates 13 representative LLMs and identifies bottlenecks in long-horizon aggregation and cross-dimensional reasoning. It also introduces LifeAgent, a tool-augmented baseline for multi-step evidence retrieval and deterministic aggregation.",
+        "author": [
+          {"@type": "Person", "name": "Ye Tian", "affiliation": {"@type": "Organization", "name": "University of California San Diego"}},
+          {"@type": "Person", "name": "Zihao Wang", "affiliation": {"@type": "Organization", "name": "University of California San Diego"}},
+          {"@type": "Person", "name": "Onat Gungor", "affiliation": [{"@type": "Organization", "name": "University of California San Diego"}, {"@type": "Organization", "name": "West Virginia University"}]},
+          {"@type": "Person", "name": "Xiaoran Fan", "affiliation": {"@type": "Organization", "name": "Google Research"}},
+          {"@type": "Person", "name": "Tajana Rosing", "affiliation": {"@type": "Organization", "name": "University of California San Diego"}}
+        ],
+        "datePublished": "2026",
+        "url": "https://gdfwj.github.io/LifeAgentBench/",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://gdfwj.github.io/LifeAgentBench/"},
+        "sameAs": "https://arxiv.org/abs/2601.13880",
+        "image": "https://gdfwj.github.io/LifeAgentBench/static/preview.png",
+        "encoding": {
+          "@type": "MediaObject",
+          "name": "LifeAgentBench paper",
+          "encodingFormat": "application/pdf",
+          "contentUrl": "https://gdfwj.github.io/LifeAgentBench/static/lifeagentbench-paper.pdf"
+        },
+        "keywords": ["large language models", "question answering", "long-horizon reasoning", "cross-dimensional reasoning", "lifestyle health reasoning"],
+        "isAccessibleForFree": true,
+        "about": [
+          {"@type": "Thing", "name": "Large language model evaluation"},
+          {"@type": "Thing", "name": "Longitudinal lifestyle records"},
+          {"@type": "Thing", "name": "Tool-augmented reasoning"}
+        ]
       },
       {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
+        "@type": "Dataset",
+        "@id": "https://gdfwj.github.io/LifeAgentBench/#dataset",
+        "name": "LifeAgentBench",
+        "description": "A benchmark of 22,573 question-answer pairs for long-horizon, cross-dimensional, and multi-user reasoning over diet, sleep, physical activity, and emotion records.",
+        "url": "https://huggingface.co/datasets/gdfwj/LifeAgentBench",
+        "mainEntityOfPage": "https://gdfwj.github.io/LifeAgentBench/",
+        "distribution": {"@type": "DataDownload", "encodingFormat": "application/jsonl", "contentUrl": "https://huggingface.co/datasets/gdfwj/LifeAgentBench"},
+        "creator": [
+          {"@type": "Person", "name": "Ye Tian"},
+          {"@type": "Person", "name": "Zihao Wang"},
+          {"@type": "Person", "name": "Onat Gungor"},
+          {"@type": "Person", "name": "Xiaoran Fan"},
+          {"@type": "Person", "name": "Tajana Rosing"}
+        ],
+        "isAccessibleForFree": true,
+        "variableMeasured": ["Fact Query", "Aggregated Statistics", "Numeric Comparison", "Conditional Query", "Trend Analysis"]
       },
       {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
+        "@type": "SoftwareSourceCode",
+        "@id": "https://gdfwj.github.io/LifeAgentBench/#software",
+        "name": "LifeAgentBench code and evaluation pipeline",
+        "description": "Code for benchmark construction, Context Prompting evaluation, Database-augmented Prompting evaluation, and summary statistics.",
+        "codeRepository": "https://github.com/gdfwj/LifeAgentBench",
+        "url": "https://github.com/gdfwj/LifeAgentBench",
+        "programmingLanguage": "Python",
+        "isAccessibleForFree": true
       }
     ]
   }
   </script>
-  
-  <!-- Website/Organization Structured Data -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "What is LifeAgentBench?", "acceptedAnswer": {"@type": "Answer", "text": "LifeAgentBench is a 22,573-question benchmark for evaluating long-horizon, cross-dimensional, and multi-user reasoning over longitudinal lifestyle records."}},
+      {"@type": "Question", "name": "What types of reasoning does LifeAgentBench evaluate?", "acceptedAnswer": {"@type": "Answer", "text": "It evaluates five reasoning types—Fact Query, Aggregated Statistics, Numeric Comparison, Conditional Query, and Trend Analysis—across different time horizons, lifestyle dimensions, user scopes, and answer formats."}},
+      {"@type": "Question", "name": "What lifestyle dimensions are included?", "acceptedAnswer": {"@type": "Answer", "text": "LifeAgentBench includes diet, sleep, physical activity, and emotion records derived from AI4FoodDB."}},
+      {"@type": "Question", "name": "How are ground-truth answers generated?", "acceptedAnswer": {"@type": "Answer", "text": "Each question is mapped to an executable program or database query that produces a deterministic answer. The pipeline also applies programmatic checks and manual inspection."}},
+      {"@type": "Question", "name": "How is LifeAgentBench different from conventional health QA benchmarks?", "acceptedAnswer": {"@type": "Answer", "text": "LifeAgentBench emphasizes reasoning over longitudinal, heterogeneous records, including cross-dimensional integration and multi-user comparison, rather than limiting evaluation to isolated questions, one domain, or short contexts."}},
+      {"@type": "Question", "name": "What is LifeAgent?", "acceptedAnswer": {"@type": "Answer", "text": "LifeAgent is a tool-augmented reasoning baseline for the benchmark. It decomposes complex queries, retrieves evidence iteratively, uses deterministic computation tools, and synthesizes an evidence-grounded response."}},
+      {"@type": "Question", "name": "How can I evaluate a new LLM on LifeAgentBench?", "acceptedAnswer": {"@type": "Answer", "text": "Download the released JSONL data, run either the Context Prompting or Database-augmented Prompting evaluation script, and compute summary accuracy with the corresponding statistics script."}},
+      {"@type": "Question", "name": "Is LifeAgentBench intended to evaluate clinical diagnosis or clinical decision making?", "acceptedAnswer": {"@type": "Answer", "text": "No. LifeAgentBench and LifeAgent are research resources for evaluating evidence-grounded lifestyle reasoning; they are not intended for diagnosis, treatment, medical decision making, or professional medical advice."}}
     ]
   }
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
+  <header class="site-header">
+    <nav class="container is-max-desktop site-nav" aria-label="Primary navigation">
+      <a class="site-mark" href="#top" aria-label="LifeAgentBench home">LifeAgentBench</a>
+      <div class="nav-links">
+        <a href="#tasks">Tasks</a><a href="#findings">Findings</a><a href="#results">Results</a><a href="#use">Use</a><a href="#citation">Citation</a>
+      </div>
+    </nav>
+  </header>
 
-  <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-    <i class="fas fa-chevron-up"></i>
-  </button>
+  <button class="scroll-to-top" type="button" aria-label="Scroll to top" title="Scroll to top"><span aria-hidden="true">↑</span></button>
 
-
-  
   <main id="main-content">
-    <!-- 顶部标题 + 作者 + 单位 + 三个按钮 -->
-    <section class="hero">
+    <section class="hero project-hero" id="top" aria-labelledby="page-title">
       <div class="hero-body">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered">
-            <div class="column has-text-centered">
-              <h1 class="title is-1 publication-title">
-                LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning
-              </h1>
-
-
-              <p class="is-size-5" style="margin-top:.75rem">
-                <strong>Ye Tian*</strong>, <strong>Zihao Wang*</strong>, 
-                <strong>Onat Gungor</strong>, <strong>Xiaoran Fan</strong>, <strong>Tajana Rosing</strong>
-              </p>
-              <p class="is-size-6 has-text-grey">
-                University of California San Diego, Computer Science and Engineering Department
-              </p>
-
-              <div class="buttons-row">
-                <a class="button is-link is-light is-rounded" target="_blank" href="https://arxiv.org/abs/2601.13880">Paper</a>
-                <a class="button is-link is-light is-rounded" target="_blank" href="https://huggingface.co/datasets/gdfwj/LifeAgentBench">Dataset</a>
-                <a class="button is-link is-light is-rounded" target="_blank" href="https://github.com/gdfwj/LifeAgentBench">Code</a>
-              </div>
-
-              <!-- 演示图片 -->
-              <div class="demo-wrap">
-                <img src="static/preview.png" alt="DailyLLM structure image">
-              </div>
-            </div>
+        <div class="container is-max-desktop has-text-centered">
+          <p class="venue-line"><span class="venue-pill">EMNLP 2026</span></p>
+          <h1 class="title publication-title" id="page-title">LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning</h1>
+          <p class="publication-authors">
+            <span>Ye Tian<sup>1,*</sup></span><span>Zihao Wang<sup>1,*</sup></span><span>Onat Gungor<sup>1,3</sup></span><span>Xiaoran Fan<sup>2</sup></span><span>Tajana Rosing<sup>1</sup></span>
+          </p>
+          <p class="affiliations"><sup>1</sup>University of California San Diego &nbsp; <sup>2</sup>Google Research &nbsp; <sup>3</sup>West Virginia University</p>
+          <p class="equal-contribution"><sup>*</sup>Equal contribution</p>
+          <div class="resource-buttons" aria-label="Project resources">
+            <a class="button is-link is-rounded" href="static/lifeagentbench-paper.pdf">Paper</a>
+            <a class="button is-link is-light is-rounded" target="_blank" rel="noopener noreferrer" href="https://huggingface.co/datasets/gdfwj/LifeAgentBench">Dataset</a>
+            <a class="button is-link is-light is-rounded" target="_blank" rel="noopener noreferrer" href="https://github.com/gdfwj/LifeAgentBench">Code</a>
           </div>
+          <figure class="hero-figure">
+            <img src="static/preview.png" width="1363" height="741" alt="Diagram of LifeAgentBench covering diet, sleep, activity, and emotion tasks, alongside the LifeAgent thought-action-observation workflow">
+            <figcaption>LifeAgentBench evaluates lifestyle-record reasoning; LifeAgent is the separate tool-augmented baseline introduced in the paper.</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
+    <section class="section section-intro" id="overview" aria-labelledby="overview-title">
+      <div class="container is-max-desktop">
+        <div class="section-heading has-text-centered">
+          <p class="eyebrow">At a glance</p>
+          <h2 class="title is-2" id="overview-title">LifeAgentBench in 30 Seconds</h2>
+          <p class="lead">LifeAgentBench is a question-answering benchmark for evaluating whether LLMs can reason over long-term, multi-dimensional lifestyle records, including long-horizon, cross-dimensional, and multi-user reasoning.</p>
+        </div>
+        <dl class="stat-grid">
+          <div class="stat-card"><dt>Benchmark scale</dt><dd><strong>22,573</strong><span>QA pairs</span></dd></div>
+          <div class="stat-card"><dt>Model coverage</dt><dd><strong>13</strong><span>evaluated LLMs</span></dd></div>
+          <div class="stat-card"><dt>Record coverage</dt><dd><strong>4</strong><span>lifestyle dimensions</span></dd></div>
+          <div class="stat-card stat-card-wide"><dt>Reasoning scope</dt><dd><strong>Long-Horizon</strong><span>Cross-Dimensional · Multi-User</span></dd></div>
+        </dl>
+        <p class="fact-note">The four dimensions are diet, sleep, physical activity, and emotion. The benchmark contains 13,452 single-user and 9,121 multi-user questions.</p>
+      </div>
+    </section>
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Personalized lifestyle health analysis requires long-horizon, multi-dimensional reasoning over heterogeneous lifestyle signals, and recent advances in mobile sensing and large language models (LLMs) make such support increasingly feasible.
-However, the capabilities of current LLMs in this setting remain insufficiently understood due to the lack of systematic benchmarks.
-In this paper, we introduce LifeAgentBench, a large-scale QA benchmark for long-horizon, cross-dimensional, and multi-user lifestyle health reasoning, containing 22,573 questions spanning from basic retrieval to complex reasoning.
-We release an extensible benchmark construction pipeline and a standardized evaluation protocol, deriving verifiable answers through executable queries and programs to support reliable assessment.
-We then systematically evaluate 13 representative LLMs on LifeAgentBench and identify key bottlenecks in long-horizon aggregation and cross-dimensional reasoning.
-Motivated by these findings, we propose LifeAgent, a tool-augmented reasoning baseline that decomposes complex queries, performs multi-step evidence retrieval, and invokes tools for deterministic aggregation.
-LifeAgent substantially enhances LLMs' capabilities on challenging reasoning tasks, achieving clear improvements over widely used baselines and showing potential for health reasoning in everyday scenarios.
-The benchmark is publicly available.https://gdfwj.github.io/LifeAgentBench
+    <section class="section alternate-section" id="why" aria-labelledby="why-title">
+      <div class="container is-max-desktop">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Research gap</p><h2 class="title is-2" id="why-title">Why LifeAgentBench?</h2></div>
+        <ol class="gap-grid">
+          <li class="gap-card"><span class="step-number">01</span><h3>Existing evaluation</h3><p>Health and lifestyle QA benchmarks often focus on one domain, short temporal contexts, or task-specific applications.</p></li>
+          <li class="gap-card"><span class="step-number">02</span><h3>Real lifestyle records</h3><p>Longitudinal records require aggregation over time, alignment across heterogeneous signals, and comparison across users.</p></li>
+          <li class="gap-card emphasized-card"><span class="step-number">03</span><h3>LifeAgentBench</h3><p>The benchmark tests verifiable reasoning across long time windows, multiple lifestyle dimensions, and single- or multi-user settings.</p></li>
+        </ol>
+        <p class="machine-summary">LifeAgentBench studies a gap that conventional health and lifestyle QA benchmarks often leave underexplored: reasoning over longitudinal, heterogeneous lifestyle records across multiple health-related dimensions and users.</p>
+      </div>
+    </section>
+
+    <section class="section" id="tasks" aria-labelledby="tasks-title">
+      <div class="container is-max-desktop">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Benchmark taxonomy</p><h2 class="title is-2" id="tasks-title">What Does LifeAgentBench Test?</h2><p class="section-summary">The official taxonomy contains five reasoning types. Questions additionally vary by time horizon, domain scope, user scope, and answer format.</p></div>
+        <div class="taxonomy-strip" aria-label="Official task categories">
+          <span><b>FQ</b> Fact Query</span><span><b>AS</b> Aggregated Statistics</span><span><b>NC</b> Numeric Comparison</span><span><b>CQ</b> Conditional Query</span><span><b>TA</b> Trend Analysis</span>
+        </div>
+        <p class="example-note">The questions below are anonymized and lightly normalized from released benchmark examples. Answers are intentionally omitted.</p>
+        <div class="example-grid">
+          <article class="example-card"><p class="task-label">Fact Query · FQ</p><h3>“How many moderately active minutes did Participant A record on May 19, 2022?”</h3><p>Retrieves one atomic fact for a specified participant and date.</p></article>
+          <article class="example-card"><p class="task-label">Aggregated Statistics · AS</p><h3>“What was Participant A’s total cardio activity time within one week, starting May 21, 2022?”</h3><p>Aggregates a measure over a longitudinal window.</p></article>
+          <article class="example-card"><p class="task-label">Conditional Query · CQ</p><h3>“Over one week, on how many days did Participant A exceed both 11,093.07 steps and 286.4 minutes asleep?”</h3><p>Applies thresholds while aligning activity and sleep records by date.</p></article>
+          <article class="example-card"><p class="task-label">Numeric Comparison · NC</p><h3>“Which duration was longest for Participant A on May 19: light, moderate, or very active minutes?”</h3><p>Compares multiple numerical measurements and returns the matching label.</p></article>
+          <article class="example-card"><p class="task-label">Trend Analysis · TA</p><h3>“Did average steps and average deep-sleep minutes both increase consecutively across all participants over three days?”</h3><p>Combines multi-user aggregation, cross-dimensional alignment, and consecutive trend reasoning.</p></article>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-<!-- Structure figure -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered" style="margin-bottom: 1rem;">Overall Structure</h2>
-    <!-- <p class="has-text-centered has-text-grey" style="margin-bottom: 1rem;">
-    </p> -->
-    <div class="structure-wrap">
-      <img src="static/system_overview.jpg" alt="Distribution of Dataset">
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="section" id="BibTeX">
-      <div class="container is-max-desktop content">
-        <div class="bibtex-header">
-          <h2 class="title is-3">BibTeX</h2>
-          <button class="button is-small" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-code').innerText)">Copy</button>
+    <section class="section alternate-section" id="findings" aria-labelledby="findings-title">
+      <div class="container is-max-desktop">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Experimental takeaways</p><h2 class="title is-2" id="findings-title">Key Findings</h2></div>
+        <div class="finding-grid">
+          <article class="finding-card"><p class="finding-index">Finding 1</p><h3>Reliable evidence retrieval remains a bottleneck.</h3><p>Across the 13 models, Database-augmented Prompting retrieves complete evidence on only 28.79% of executable queries on average, even though nine models exceed 70% answer accuracy when complete evidence is retrieved.</p></article>
+          <article class="finding-card"><p class="finding-index">Finding 2</p><h3>Performance falls as reasoning scope and output complexity grow.</h3><p>Models struggle with aggregation-intensive tasks and multi-item outputs; accuracy also declines when evidence expands from one lifestyle dimension to all dimensions and from one user to multiple users.</p></article>
+          <article class="finding-card"><p class="finding-index">Finding 3</p><h3>Tool-augmented reasoning substantially improves difficult subsets.</h3><p>With the same Qwen2.5-7B backbone, LifeAgent reaches 40.16% average accuracy on the most challenging subsets, compared with 7.74% for Context Prompting and 9.43% for Database-augmented Prompting.</p></article>
         </div>
-        <pre id="bibtex-code"><code>@article{tian2026lifeagentbench,
-  title={LifeAgentBench: A Multi-dimensional Benchmark and Agent for Personal Health Assistants in Digital Health},
-  author={Tian, Ye and Wang, Zihao and Gungor, Onat and Fan, Xiaoran and Rosing, Tajana},
-  journal={arXiv preprint arXiv:2601.13880},
-  year={2026}
+      </div>
+    </section>
+
+    <section class="section" id="results" aria-labelledby="results-title">
+      <div class="container is-max-desktop">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Reported evaluation</p><h2 class="title is-2" id="results-title">Benchmark Results</h2><p class="section-summary">Overall normalized answer accuracy from the 2026 camera-ready paper. Higher is better.</p></div>
+        <div class="result-meta" aria-label="Results metadata"><span>Snapshot: camera-ready paper, 2026</span><span>Dataset: 22,573 QA pairs</span><span>Metric: Accuracy (%)</span></div>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable benchmark results table">
+          <table class="results-table">
+            <caption>Accuracy of 13 evaluated LLMs under Context Prompting and Database-augmented Prompting.</caption>
+            <thead><tr><th scope="col">Model</th><th scope="col"><abbr title="Context Prompting">CP</abbr> Acc. (%)</th><th scope="col"><abbr title="Database-augmented Prompting">DP</abbr> Acc. (%)</th></tr></thead>
+            <tbody>
+              <tr class="group-row"><th colspan="3" scope="colgroup">Open-source LLMs</th></tr>
+              <tr><th scope="row">DeepSeek-Coder-1.3B</th><td>1.09</td><td>1.26</td></tr>
+              <tr><th scope="row">Llama-3.2-3B</th><td>20.18</td><td>13.47</td></tr>
+              <tr><th scope="row">Phi-3.5-mini-3.8B</th><td>20.57</td><td>16.16</td></tr>
+              <tr><th scope="row">Mistral-v0.3-7B</th><td>30.97</td><td>9.03</td></tr>
+              <tr><th scope="row">Qwen-2.5-7B</th><td>40.45</td><td>21.45</td></tr>
+              <tr><th scope="row">Llama-3.1-8B</th><td>20.65</td><td>21.53</td></tr>
+              <tr><th scope="row">Gemma-2-9B</th><td>24.44</td><td>14.54</td></tr>
+              <tr><th scope="row">Qwen3.5-9B</th><td>45.55</td><td>25.76</td></tr>
+              <tr><th scope="row">Llama-3.1-70B</th><td>40.51</td><td>13.91</td></tr>
+              <tr class="group-row"><th colspan="3" scope="colgroup">Closed-source LLMs</th></tr>
+              <tr><th scope="row">Gemini 2.5 Flash-Lite</th><td>44.81</td><td>39.04</td></tr>
+              <tr><th scope="row">Claude-3-Haiku</th><td>35.30</td><td>29.30</td></tr>
+              <tr><th scope="row">GPT-4o</th><td>57.02</td><td>34.71</td></tr>
+              <tr class="best-row"><th scope="row">DeepSeek-V4-Pro</th><td><strong>58.89</strong></td><td><strong>55.67</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note"><abbr title="Context Prompting">CP</abbr> places pre-filtered records in the model context. <abbr title="Database-augmented Prompting">DP</abbr> asks the model to generate a read-only SQL query, executes it, and returns the evidence for final answering. See the paper for exact answer normalization and numeric-tolerance rules.</p>
+      </div>
+    </section>
+
+    <section class="section lifeagent-section" id="lifeagent" aria-labelledby="lifeagent-title">
+      <div class="container is-max-desktop">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Baseline system</p><h2 class="title is-2" id="lifeagent-title">LifeAgent: A Tool-Augmented Reasoning Baseline</h2><p class="lead compact-lead">LifeAgent is not the benchmark itself. It is a separate baseline introduced to address the evidence-retrieval, aggregation, and cross-dimensional reasoning failures exposed by LifeAgentBench.</p></div>
+        <ol class="pipeline" aria-label="LifeAgent workflow">
+          <li><span>1</span><strong>User query</strong><small>Receive a lifestyle health question.</small></li>
+          <li><span>2</span><strong>In-context decomposition</strong><small>Identify parameters, sub-questions, and an executable plan.</small></li>
+          <li><span>3</span><strong>Iterative tool use</strong><small>Run a thought–action–observation loop and update evidence.</small></li>
+          <li><span>4</span><strong>Evidence-grounded synthesis</strong><small>Integrate records and computed intermediate results.</small></li>
+          <li><span>5</span><strong>Response</strong><small>Produce an answer grounded in accumulated evidence.</small></li>
+        </ol>
+        <div class="tool-grid">
+          <article><h3>Structured data retrieval</h3><p>Event lookups and daily aggregated time series constrained by domain, time window, and granularity.</p></article>
+          <article><h3>Cohort-level aggregation</h3><p>Multi-user summaries, ranking by selected metrics, and criterion-based group comparisons.</p></article>
+          <article><h3>Deterministic computation</h3><p>Arithmetic, aggregation, threshold checks, comparisons, consecutiveness, and trend analysis.</p></article>
+        </div>
+        <p class="machine-summary"><strong>Why LifeAgent matters:</strong> the results show that explicit decomposition, iterative evidence retrieval, and deterministic computation can strengthen LLM reasoning on the benchmark’s most challenging tasks.</p>
+      </div>
+    </section>
+
+    <section class="section alternate-section" id="construction" aria-labelledby="construction-title">
+      <div class="container is-max-desktop">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Verifiable benchmark construction</p><h2 class="title is-2" id="construction-title">Benchmark Composition and Construction</h2><p class="section-summary">LifeAgentBench is built from anonymized AI4FoodDB records for 100 participants. Records are normalized into relational tables, questions are instantiated from reusable templates, and deterministic answers are produced by executable programs and queries.</p></div>
+        <ol class="construction-flow">
+          <li><strong>Normalize records</strong><span>Align diet, sleep, activity, and emotion by participant ID and timestamp.</span></li>
+          <li><strong>Instantiate questions</strong><span>Compose time-window, aggregation, comparison, condition, and trend operators.</span></li>
+          <li><strong>Execute ground truth</strong><span>Run deterministic programs or database queries for verifiable answers.</span></li>
+          <li><strong>Check quality</strong><span>Apply programmatic checks and manual inspection.</span></li>
+        </ol>
+        <figure class="structure-figure">
+          <img src="static/system_overview.jpg" width="2409" height="681" loading="lazy" alt="LifeAgentBench composition showing 13,452 single-user and 9,121 multi-user questions, vocabulary, five task categories, and answer formats">
+          <figcaption>Benchmark composition: user scope and domains (left), question vocabulary (center), and task and answer-format distribution (right).</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="use" aria-labelledby="use-title">
+      <div class="container is-max-desktop">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Quick start</p><h2 class="title is-2" id="use-title">Use LifeAgentBench</h2><p class="section-summary">The repository supports Context Prompting and Database-augmented Prompting. This concise path uses the documented Context Prompting workflow.</p></div>
+        <ol class="quickstart-grid">
+          <li class="quickstart-card"><span class="step-number">01</span><h3>Download the benchmark</h3><p>Clone the repository with Git LFS enabled, or download the dataset from Hugging Face.</p><div class="code-block"><button class="copy-button" type="button" data-copy-target="lfs-command" aria-label="Copy Git LFS command">Copy</button><pre id="lfs-command"><code>git lfs install</code></pre></div></li>
+          <li class="quickstart-card"><span class="step-number">02</span><h3>Run a model</h3><p>Run the documented Context Prompting evaluator on the released JSONL files.</p><div class="code-block"><button class="copy-button" type="button" data-copy-target="eval-command" aria-label="Copy evaluation command">Copy</button><pre id="eval-command"><code>python eval_simple.py \
+  --data-root ./gen_data_processed/simple \
+  --eval-root ./eval \
+  --model meta-llama/Llama-3.2-3B-Instruct \
+  --max-new-tokens 32 \
+  --api-key ""</code></pre></div></li>
+          <li class="quickstart-card"><span class="step-number">03</span><h3>Evaluate predictions</h3><p>Compute overall summary statistics from the generated outputs.</p><div class="code-block"><button class="copy-button" type="button" data-copy-target="stat-command" aria-label="Copy statistics command">Copy</button><pre id="stat-command"><code>python stat_simple.py \
+  eval/model_name/all_outputs.jsonl</code></pre></div></li>
+        </ol>
+        <p class="centered-note">See the <a target="_blank" rel="noopener noreferrer" href="https://github.com/gdfwj/LifeAgentBench#readme">full README</a> for environment setup, output format, Database-augmented Prompting, and dataset-construction instructions.</p>
+      </div>
+    </section>
+
+    <section class="section alternate-section" id="abstract" aria-labelledby="abstract-title">
+      <div class="container is-max-desktop narrow-container">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Paper</p><h2 class="title is-2" id="abstract-title">Abstract</h2></div>
+        <div class="abstract-text"><p>Personalized lifestyle health analysis requires long-horizon, multi-dimensional reasoning over heterogeneous lifestyle signals, and recent advances in mobile sensing and large language models (LLMs) make such support increasingly feasible. However, the capabilities of current LLMs in this setting remain insufficiently understood due to the lack of systematic benchmarks. In this paper, we introduce LifeAgentBench, a large-scale QA benchmark for long-horizon, cross-dimensional, and multi-user lifestyle health reasoning, containing 22,573 questions spanning from basic retrieval to complex reasoning. We release an extensible benchmark construction pipeline and a standardized evaluation protocol, deriving verifiable answers through executable queries and programs to support reliable assessment. We then systematically evaluate 13 representative LLMs on LifeAgentBench and identify key bottlenecks in long-horizon aggregation and cross-dimensional reasoning. Motivated by these findings, we propose LifeAgent, a tool-augmented reasoning baseline that decomposes complex queries, performs multi-step evidence retrieval, and invokes tools for deterministic aggregation. LifeAgent substantially enhances LLMs’ capabilities on challenging reasoning tasks, achieving clear improvements over widely used baselines and showing potential for health reasoning in everyday scenarios. The benchmark is publicly available.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container is-max-desktop narrow-container">
+        <div class="section-heading has-text-centered"><p class="eyebrow">Common questions</p><h2 class="title is-2" id="faq-title">FAQ</h2></div>
+        <div class="faq-list">
+          <details><summary>What is LifeAgentBench?</summary><p>LifeAgentBench is a 22,573-question benchmark for evaluating long-horizon, cross-dimensional, and multi-user reasoning over longitudinal lifestyle records.</p></details>
+          <details><summary>What types of reasoning does LifeAgentBench evaluate?</summary><p>It evaluates five reasoning types—Fact Query, Aggregated Statistics, Numeric Comparison, Conditional Query, and Trend Analysis—across different time horizons, lifestyle dimensions, user scopes, and answer formats.</p></details>
+          <details><summary>What lifestyle dimensions are included?</summary><p>LifeAgentBench includes diet, sleep, physical activity, and emotion records derived from AI4FoodDB.</p></details>
+          <details><summary>How are ground-truth answers generated?</summary><p>Each question is mapped to an executable program or database query that produces a deterministic answer. The pipeline also applies programmatic checks and manual inspection.</p></details>
+          <details><summary>How is LifeAgentBench different from conventional health QA benchmarks?</summary><p>LifeAgentBench emphasizes reasoning over longitudinal, heterogeneous records, including cross-dimensional integration and multi-user comparison, rather than limiting evaluation to isolated questions, one domain, or short contexts.</p></details>
+          <details><summary>What is LifeAgent?</summary><p>LifeAgent is a tool-augmented reasoning baseline for the benchmark. It decomposes complex queries, retrieves evidence iteratively, uses deterministic computation tools, and synthesizes an evidence-grounded response.</p></details>
+          <details><summary>How can I evaluate a new LLM on LifeAgentBench?</summary><p>Download the released JSONL data, run either the Context Prompting or Database-augmented Prompting evaluation script, and compute summary accuracy with the corresponding statistics script.</p></details>
+          <details><summary>Is LifeAgentBench intended to evaluate clinical diagnosis or clinical decision making?</summary><p>No. LifeAgentBench and LifeAgent are research resources for evaluating evidence-grounded lifestyle reasoning; they are not intended for diagnosis, treatment, medical decision making, or professional medical advice.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section citation-section" id="citation" aria-labelledby="citation-title">
+      <div class="container is-max-desktop">
+        <div class="bibtex-header"><div><p class="eyebrow">Reference</p><h2 class="title is-2" id="citation-title">Citation</h2></div><button class="button is-small copy-button" type="button" data-copy-target="bibtex-code" aria-label="Copy BibTeX citation">Copy BibTeX</button></div>
+        <pre id="bibtex-code"><code>@inproceedings{tian-etal-2026-lifeagentbench,
+  title     = {LifeAgentBench: Benchmarking LLMs for Long-Horizon,
+               Cross-Dimensional Lifestyle Health Reasoning},
+  author    = {Tian, Ye and Wang, Zihao and Gungor, Onat and
+               Fan, Xiaoran and Rosing, Tajana},
+  booktitle = {EMNLP 2026},
+  year      = {2026}
 }</code></pre>
+        <p class="citation-links"><a href="static/lifeagentbench-paper.pdf">Paper PDF</a><span aria-hidden="true">·</span><a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2601.13880">arXiv</a><span aria-hidden="true">·</span><a href="summary.md">Markdown summary</a><span aria-hidden="true">·</span><a href="llms.txt">llms.txt</a></p>
       </div>
-</section>
-
+    </section>
   </main>
-<!--End BibTex citation -->
-
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
-      </div>
+    <div class="container is-max-desktop">
+      <p><strong>LifeAgentBench</strong> is a research benchmark for lifestyle health reasoning, not a clinical decision-making system.</p>
+      <p>This page is based on the <a target="_blank" rel="noopener noreferrer" href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a>, adapted from the <a target="_blank" rel="noopener noreferrer" href="https://nerfies.github.io">Nerfies</a> project page.</p>
     </div>
-  </div>
-</footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+  </footer>
+</body>
+</html>

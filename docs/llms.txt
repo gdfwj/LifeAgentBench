@@ -1,0 +1,42 @@
+# LifeAgentBench
+
+> LifeAgentBench is a question-answering benchmark for evaluating whether large language models can reason over long-term, multi-dimensional lifestyle records. It covers long-horizon, cross-dimensional, and multi-user reasoning over diet, sleep, physical activity, and emotion data. LifeAgent is a separate tool-augmented baseline introduced for the benchmark.
+
+## Key Facts
+
+- Canonical title: LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning
+- Scale: 22,573 QA pairs
+- User scope: 13,452 single-user questions and 9,121 multi-user questions
+- Evaluated models: 13 representative LLMs in the 2026 camera-ready paper
+- Source records: AI4FoodDB records from 100 anonymized participants
+- Lifestyle dimensions: diet, sleep, physical activity, and emotion
+- Reasoning types: Fact Query, Aggregated Statistics, Numeric Comparison, Conditional Query, and Trend Analysis
+- Reasoning scopes: long-horizon, cross-dimensional, single-user, and multi-user
+- Answer formats: Yes/No, scalar numerical values, short text, pairwise outputs, and multi-item lists
+- Ground truth: deterministic answers produced through executable programs or database queries, with programmatic checks and manual inspection
+- Baselines: Context Prompting and Database-augmented Prompting
+- Primary metric: normalized answer accuracy; the paper defines exact-match and numeric-tolerance rules
+- Intended use: research on evidence-grounded lifestyle reasoning, not diagnosis, treatment, medical decision making, or professional medical advice
+
+## Key Findings
+
+- Reliable evidence retrieval is a major bottleneck. Under Database-augmented Prompting, complete-evidence retrieval averages 28.79% across the 13 models, although nine models exceed 70% answer accuracy when complete evidence is retrieved.
+- Performance degrades on aggregation-intensive questions, multi-item outputs, all-dimension questions, and multi-user reasoning.
+- On the paper's most challenging subsets with the same Qwen2.5-7B backbone, LifeAgent reaches 40.16% average accuracy, compared with 7.74% for Context Prompting and 9.43% for Database-augmented Prompting.
+
+## LifeAgent
+
+LifeAgent is a tool-augmented reasoning baseline, not the benchmark itself. It decomposes a user query into executable sub-questions, iteratively retrieves structured evidence, applies cohort-level aggregation and deterministic computation tools, and synthesizes an evidence-grounded response.
+
+## Resources
+
+- Project Page: https://gdfwj.github.io/LifeAgentBench/
+- Camera-ready Paper PDF: https://gdfwj.github.io/LifeAgentBench/static/lifeagentbench-paper.pdf
+- arXiv: https://arxiv.org/abs/2601.13880
+- Dataset: https://huggingface.co/datasets/gdfwj/LifeAgentBench
+- Code: https://github.com/gdfwj/LifeAgentBench
+- Markdown Summary: https://gdfwj.github.io/LifeAgentBench/summary.md
+
+## Citation
+
+Tian, Ye; Wang, Zihao; Gungor, Onat; Fan, Xiaoran; and Rosing, Tajana. “LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning.” EMNLP 2026.
