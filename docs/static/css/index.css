@@ -288,7 +288,8 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
-  margin: 0;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .stat-card {
@@ -298,6 +299,7 @@ figcaption {
   border-radius: var(--radius);
   background: var(--surface);
   box-shadow: var(--shadow-sm);
+  text-align: center;
 }
 
 .stat-card dt {
@@ -502,7 +504,7 @@ figcaption {
 }
 
 .finding-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .finding-card h3 {
