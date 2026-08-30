@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
 
-  <title>LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning</title>
+  <title>LifeAgentBench | Long-Horizon Lifestyle Health Reasoning</title>
   <meta name="title" content="LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning">
   <meta name="description" content="LifeAgentBench is a 22,573-question benchmark evaluating 13 LLMs on long-horizon, cross-dimensional, and multi-user lifestyle health reasoning.">
   <meta name="keywords" content="LifeAgentBench, large language models, LLM benchmark, lifestyle health reasoning, long-horizon reasoning, cross-dimensional reasoning, multi-user reasoning, question answering">
@@ -169,10 +169,10 @@
           </p>
           <p class="affiliations"><sup>1</sup>University of California San Diego &nbsp; <sup>2</sup>Google Research &nbsp; <sup>3</sup>West Virginia University</p>
           <p class="equal-contribution"><sup>*</sup>Equal contribution</p>
-          <div class="resource-buttons" aria-label="Project resources">
-            <a class="button is-link is-rounded" href="static/lifeagentbench-paper.pdf"><img class="resource-icon resource-icon-paper" src="static/arxiv.svg" alt="" aria-hidden="true">Paper</a>
-            <a class="button is-link is-light is-rounded" target="_blank" rel="noopener noreferrer" href="https://huggingface.co/datasets/gdfwj/LifeAgentBench"><img class="resource-icon" src="static/huggingface.svg" alt="" aria-hidden="true">Dataset</a>
-            <a class="button is-link is-light is-rounded" target="_blank" rel="noopener noreferrer" href="https://github.com/gdfwj/LifeAgentBench"><img class="resource-icon" src="static/github.svg" alt="" aria-hidden="true">Code</a>
+          <div class="resource-buttons" role="group" aria-label="Project resources">
+            <span class="resource-item"><img class="resource-icon" src="static/arxiv.svg" alt="" aria-hidden="true"><a class="button is-link is-rounded" href="static/lifeagentbench-paper.pdf">Paper</a></span>
+            <span class="resource-item"><img class="resource-icon" src="static/huggingface.svg" alt="" aria-hidden="true"><a class="button is-link is-light is-rounded" target="_blank" rel="noopener noreferrer" href="https://huggingface.co/datasets/gdfwj/LifeAgentBench">Dataset</a></span>
+            <span class="resource-item"><img class="resource-icon" src="static/github.svg" alt="" aria-hidden="true"><a class="button is-link is-light is-rounded" target="_blank" rel="noopener noreferrer" href="https://github.com/gdfwj/LifeAgentBench">Code</a></span>
           </div>
           <figure class="hero-figure">
             <img src="static/preview.png" width="1363" height="741" alt="Diagram of LifeAgentBench covering diet, sleep, activity, and emotion tasks, alongside the LifeAgent thought-action-observation workflow">
@@ -225,7 +225,7 @@
         </figure>
 
         <div class="subsection-heading has-text-centered" id="tasks"><p class="eyebrow">Benchmark taxonomy</p><h3 class="subsection-title" id="tasks-title">What Does LifeAgentBench Test?</h3><p class="section-summary">The official taxonomy contains five reasoning types. Questions additionally vary by time horizon, domain scope, user scope, and answer format.</p></div>
-        <div class="taxonomy-strip" aria-label="Official task categories">
+        <div class="taxonomy-strip" role="group" aria-label="Official task categories">
           <span><b>FQ</b> Fact Query</span><span><b>AS</b> Aggregated Statistics</span><span><b>NC</b> Numeric Comparison</span><span><b>CQ</b> Conditional Query</span><span><b>TA</b> Trend Analysis</span>
         </div>
         <p class="example-note">The questions below are lightly normalized from released benchmark examples. Placeholders replace participant identifiers, dates, and numeric values; answers are intentionally omitted.</p>
@@ -254,7 +254,7 @@
     <section class="section" id="results" aria-labelledby="results-title">
       <div class="container is-max-desktop">
         <div class="section-heading has-text-centered"><p class="eyebrow">Reported evaluation</p><h2 class="title is-2" id="results-title">Benchmark Results</h2><p class="section-summary">Overall normalized answer accuracy from the 2026 camera-ready paper. Higher is better.</p></div>
-        <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable benchmark results table">
+        <section class="table-wrap" tabindex="0" aria-label="Scrollable benchmark results table">
           <table class="results-table">
             <caption>Accuracy of 13 evaluated LLMs under Context Prompting and Database-augmented Prompting.</caption>
             <thead><tr><th scope="col">Model</th><th scope="col">Context Prompting Accuracy (%)</th><th scope="col">Database-augmented Prompting Accuracy (%)</th></tr></thead>
@@ -276,8 +276,28 @@
               <tr class="best-row"><th scope="row">DeepSeek-V4-Pro</th><td><strong>58.89</strong></td><td><strong>55.67</strong></td></tr>
             </tbody>
           </table>
-        </div>
+        </section>
         <p class="table-note">Context Prompting places pre-filtered records in the model context. Database-augmented Prompting asks the model to generate a read-only SQL query, executes it, and returns the evidence for final answering. See the paper for exact answer normalization and numeric-tolerance rules.</p>
+
+        <div class="results-figures">
+          <figure class="result-figure">
+            <img src="static/bench.jpg" width="933" height="675" loading="lazy" alt="Scatter plot comparing Context Prompting and Database-augmented Prompting accuracy for 13 evaluated language models">
+            <figcaption>Overall accuracy of the 13 evaluated LLMs under Context Prompting and Database-augmented Prompting.</figcaption>
+          </figure>
+          <figure class="result-figure result-figure-wide">
+            <img src="static/benchGPT.jpg" width="1065" height="448" loading="lazy" alt="GPT-4o accuracy by LifeAgentBench question type and answer format under Context Prompting, Database-augmented Prompting, and Database-augmented Prompting conditioned on complete evidence retrieval">
+            <figcaption>GPT-4o performance by question type and answer format, including final-answer accuracy conditioned on complete evidence retrieval.</figcaption>
+          </figure>
+        </div>
+
+        <section class="results-summary" aria-labelledby="results-summary-title">
+          <h3 id="results-summary-title">What the results show</h3>
+          <ul>
+            <li><strong>Overall accuracy remains limited.</strong> DeepSeek-V4-Pro is the strongest reported model, reaching 58.89% with Context Prompting and 55.67% with Database-augmented Prompting.</li>
+            <li><strong>Evidence retrieval is a central bottleneck.</strong> Complete-evidence retrieval averages 28.79% across the 13 models, while nine models exceed 70% final-answer accuracy when complete evidence has been retrieved.</li>
+            <li><strong>Aggregation and structured outputs are especially difficult.</strong> For GPT-4o under Context Prompting, accuracy falls from 69.8% on Fact Query to 15.6% on Aggregated Statistics, and from 75.1% on Yes/No answers to 28.1% on multi-item answers.</li>
+          </ul>
+        </section>
       </div>
     </section>
 

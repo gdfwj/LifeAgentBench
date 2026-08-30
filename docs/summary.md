@@ -58,6 +58,8 @@ The paper's ablation study finds complementary roles for decomposition, retrieva
 
 The paper reports Context Prompting (CP) and Database-augmented Prompting (DP) results. Normalized answer accuracy is the primary metric. DP also reports SQL validity, complete-evidence retrieval, and answer accuracy conditioned on complete evidence. Exact answer-matching and numeric-tolerance rules are defined in the paper.
 
+DeepSeek-V4-Pro is the strongest reported model, reaching 58.89% accuracy under Context Prompting and 55.67% under Database-augmented Prompting. Complete-evidence retrieval under Database-augmented Prompting averages 28.79% across all 13 models, but nine models exceed 70% final-answer accuracy when complete evidence is retrieved. GPT-4o's fine-grained results illustrate the complexity gap: under Context Prompting, it reaches 69.8% on Fact Query but 15.6% on Aggregated Statistics, and 75.1% on Yes/No answers but 28.1% on multi-item answers.
+
 ## Resources
 
 - [Project Page](https://gdfwj.github.io/LifeAgentBench/)

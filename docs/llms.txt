@@ -25,6 +25,12 @@
 - On the paper's most challenging subsets with the same Qwen2.5-7B backbone, LifeAgent reaches 40.16% average accuracy, compared with 7.74% for Context Prompting and 9.43% for Database-augmented Prompting.
 - LifeAgent's decomposition, retrieval tools, and computation tools make complementary contributions. Removing decomposition reduces all-dimension accuracy from 52.75% to 38.76%, while removing retrieval tools reduces health-indicator accuracy from 69.84% to 33.84%; removing computation tools also lowers performance.
 
+## Benchmark Results
+
+- DeepSeek-V4-Pro is the strongest reported model, with 58.89% accuracy under Context Prompting and 55.67% under Database-augmented Prompting.
+- Complete-evidence retrieval under Database-augmented Prompting averages 28.79% across the 13 models, but nine models exceed 70% final-answer accuracy when complete evidence is retrieved.
+- GPT-4o illustrates the benchmark's complexity gap under Context Prompting: accuracy is 69.8% on Fact Query versus 15.6% on Aggregated Statistics, and 75.1% on Yes/No answers versus 28.1% on multi-item answers.
+
 ## LifeAgent
 
 LifeAgent is a tool-augmented reasoning baseline, not the benchmark itself. It decomposes a user query into executable sub-questions, iteratively retrieves structured evidence, applies cohort-level aggregation and deterministic computation tools, and synthesizes an evidence-grounded response.
