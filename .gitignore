@@ -6,3 +6,4 @@ gen_all.py
 check.py
 classify.py
 _EMNLP_26__LifeAgentBench_CameraReaday.pdf
+gen_data_processed/README.md
